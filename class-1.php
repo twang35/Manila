@@ -69,18 +69,7 @@ include("header.php");
                             </div>
                         </div>
 				    </div>
-				    <div class="item">
-                        <div class="row" style="width: 100%;">
-                            <div class="col-md-6 chart">
-                                <h5>Assignment Type</h5>
-                                <!-- <div id="hero-bar" style="height: 200px;"></div>     -->
-                            </div>
-                            <div class="col-md-6 chart">
-                                <h5>Individual Assignments</h5>
-                                <!-- <div id="hero-bar" style="height: 200px;"></div>     -->
-                            </div>
-                        </div>
-                    </div>
+				    
 				  </div>
 				  <!-- Carousel nav -->
 				  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
@@ -89,6 +78,28 @@ include("header.php");
 			</div>
 
 			<div class="row section" style="margin-top:0px; padding-top:0px;"></div>
+
+            <div class="row" style="padding-top:70px" align="center">
+                        <div class="row" style="width: 100%;">
+                            <div class="col-md-6 chart">
+                                <h5>Assignment Type</h5>
+                                <div id="hero-donut-1" style="height: 248px;"></div>    
+                            </div>
+                            <div class="col-md-6 chart">
+                                <h5>Individual Assignments</h5>
+                                <div id="hero-donut-2" style="height: 248px;"></div>    
+                            </div>
+                        </div>
+            </div>
+
+            <div class="row" style="padding-top:50px" align="center">
+                <div class="row" style="width: 100%;">    
+                            <div class="col-md-12 chart">
+                                <h5>Points Recieved of Points Available</h5>
+                                <div id="assignment" style="width: 600px;"></div>
+                            </div>
+                        </div>
+            </div>
 
             <div class="row" style="padding-top:70px" align="center">
                 <div class="col-md-4">
@@ -271,7 +282,7 @@ include("header.php");
                 </div>
                 <div class="col-md-6 chart">
                     <h5>Month traffic</h5>
-                    <div id="hero-donut" style="height: 250px;"></div>    
+                    <div id="hero-donut-3" style="height: 250px;"></div>    
                 </div>
             </div>
 
@@ -349,10 +360,59 @@ include("header.php");
             barColors: ["#3d88ba"]
         });
 
+        Morris.Bar({
+            element: 'assignment',
+          data: [
+          { y: 'Quiz-1', a: 100, b: 100 },
+          { y: 'Quiz-2', a: 75,  b: 100 },
+          { y: 'Quiz-3', a: 90,  b: 100 },
+          { y: 'Test-1', a: 85,  b: 100 },
+          { y: 'Test-2', a: 90,  b: 100 },
+          { y: 'Final', a: 75,  b: 100 },
+          { y: 'Attendance', a: 100, b: 100 }
+          ],
+          xkey: 'y',
+          ykeys: ['a', 'b'],
+          labels: ['Series A', 'Series B']
+      });
+
 
         // Morris Donut Chart
         Morris.Donut({
-            element: 'hero-donut',
+            element: 'hero-donut-1',
+            data: [
+                {label: 'Homework', value: 25 },
+                {label: 'Quizzes', value: 40 },
+                {label: 'Tests', value: 25 },
+                {label: 'Attendance', value: 10 }
+            ],
+            colors: ["#30a1ec", "#76bdee", "#c4dafe"],
+            formatter: function (y, data) { return y + "%" }
+            // resize: true
+        
+    });
+        Morris.Donut({
+            element: 'hero-donut-2',
+            data: [
+                {label: 'Test-1', value: 20 },
+                {label: 'Test-2', value: 20 },
+                {label: 'Final', value: 25 },
+                {label: 'Quiz-1', value: 10 },
+                {label: 'Quiz-2', value: 10 },
+                {label: 'Quiz-3', value: 10 },
+                {label: 'Homework', value: 5 }
+            ],
+            colors: ["#30a1ec", "#76bdee", "#c4dafe"],
+            formatter: function (y, data) { return y + "%" },
+            // resize: true
+
+        });
+        // {
+            
+        // },
+        // {
+        Morris.Donut({
+            element: 'hero-donut-3',
             data: [
                 {label: 'Direct', value: 25 },
                 {label: 'Referrals', value: 40 },
@@ -360,7 +420,8 @@ include("header.php");
                 {label: 'Unique visitors', value: 10 }
             ],
             colors: ["#30a1ec", "#76bdee", "#c4dafe"],
-            formatter: function (y) { return y + "%" }
+            formatter: function (y, data) { return y + "%" },
+            resize: true
         });
         
 
