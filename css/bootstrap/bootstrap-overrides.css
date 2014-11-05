@@ -19,6 +19,17 @@ h1,h2,h3,h4,h5,h6{
 	float: left;
 }
 
+.row.grdbk {
+	margin-top:70px; 
+	background-color:#ffffff;
+	border-top: rgb(203, 202, 202);
+	border-bottom: rgb(203, 202, 202);
+    border-top-style: solid; 
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
 .col-md-4-classBar {
 	padding: 15px; 
 	padding-left:5px;

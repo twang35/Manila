@@ -168,27 +168,27 @@
     <!-- sidebar -->
     <div id="sidebar-nav">
         <ul id="dashboard-menu">
-        <?php if($Title == "Home"):  ?>
-            <li class="active">
-                <div class="pointer">
-                    <div class="arrow"></div>
-                    <div class="arrow_border"></div>
-                </div>
-        <?php else : ?>
-            <li>
-        <?php endif; ?>
-                <a href="index.php">
-                    <i class="icon-home"></i>
-                    <span>Home</span>
-                </a>
-            </li>            
+        <!-- <?php if($Title == "Home"):  ?> -->
+            <!-- <li class="active"> -->
+                <!-- <div class="pointer"> -->
+                    <!-- <div class="arrow"></div> -->
+                    <!-- <div class="arrow_border"></div> -->
+                <!-- </div> -->
+        <!-- <?php else : ?> -->
+            <!-- <li> -->
+        <!-- <?php endif; ?> -->
+                <!-- <a href="index.php"> -->
+                    <!-- <i class="icon-home"></i> -->
+                    <!-- <span>Home</span> -->
+                <!-- </a> -->
+            <!-- </li>             -->
         <?php if($Title == "Bio 141" || $Title == "Econ 121" || $Title == "Eng 181"):  ?>
             <li class="active">
                 <div class="pointer">
                     <div class="arrow"></div>
                     <div class="arrow_border"></div>
                 </div>
-                <a class="dropdown-toggle" href="#">
+                <a href="index.php">
                     <i class="icon-signal"></i>
                     <span>Classes</span>
                     <i class="icon-chevron-down"></i>
@@ -219,30 +219,30 @@
         <?php endif; ?>
                 <a href="class_history.php">
                     <i class="icon-group"></i>
-                    <span>Class History</span>
+                    <span>Friends</span>
                 </a>
             </li>
             <li>
                 <a href="#">
-                    <i class="icon-edit"></i>
-                    <span>**RateMyProf**</span>
+                    <i class="icon-star"></i>
+                    <span>Instructors</span>
                 </a>
             </li>
-        <?php if($Title == "Gradelytics"):  ?>
-            <li class="active">
-                <div class="pointer">
-                    <div class="arrow"></div>
-                    <div class="arrow_border"></div>
-                </div>
-        <?php else : ?>
-            <li>
-        <?php endif; ?>
-                <a href="Gradelytics.php">
-                    <i class="icon-picture"></i>
-                    <span>Gradelytics</span>
-                </a>
-            </li>
-            <?php if($Title == "Calendar"):  ?>
+        <!-- <?php if($Title == "Gradelytics"):  ?> -->
+            <!-- <li class="active"> -->
+                <!-- <div class="pointer"> -->
+                    <!-- <div class="arrow"></div> -->
+                    <!-- <div class="arrow_border"></div> -->
+                <!-- </div> -->
+        <!-- <?php else : ?> -->
+            <!-- <li> -->
+        <!-- <?php endif; ?> -->
+                <!-- <a href="Gradelytics.php"> -->
+                    <!-- <i class="icon-picture"></i> -->
+                    <!-- <span>TooDoo</span> -->
+                <!-- </a> -->
+            <!-- </li> -->
+            <?php if($Title == "TooDoo"):  ?>
             <li class="active">
                 <div class="pointer">
                     <div class="arrow"></div>
@@ -253,35 +253,35 @@
             <?php endif; ?>
                 <a href="calendar.php">
                     <i class="icon-calendar-empty"></i>
-                    <span>Calendar</span>
+                    <span>TooDoo</span>
                 </a>
             </li>
-        <?php if($Title == "Profile"):  ?>
-            <li class="active">
-                <div class="pointer">
-                    <div class="arrow"></div>
-                    <div class="arrow_border"></div>
-                </div>
-        <?php else : ?>
-            <li>
-        <?php endif; ?>
-                <a href="user-profile.php">
-                    <i class="icon-user"></i>
-                    <span>Profile</span>
-                </a>
-            </li>
+        <!-- <?php if($Title == "Profile"):  ?> -->
+            <!-- <li class="active"> -->
+                <!-- <div class="pointer"> -->
+                    <!-- <div class="arrow"></div> -->
+                    <!-- <div class="arrow_border"></div> -->
+                <!-- </div> -->
+        <!-- <?php else : ?> -->
+            <!-- <li> -->
+        <!-- <?php endif; ?> -->
+                <!-- <a href="user-profile.php"> -->
+                    <!-- <i class="icon-user"></i> -->
+                    <!-- <span>Profile</span> -->
+                <!-- </a> -->
+            <!-- </li> -->
             <li>
                 <a href="chart-showcase.html">
                     <i class="icon-cog"></i>
                     <span>Template</span>
                 </a>
             </li>
-            <li>
-                <a href="signup.html">
-                    <i class="icon-edit"></i>
-                    <span>Sign Up Page</span>
-                </a>
-            </li>
+            <!-- <li> -->
+                <!-- <a href="signup.html"> -->
+                    <!-- <i class="icon-edit"></i> -->
+                    <!-- <span>Sign Up Page</span> -->
+                <!-- </a> -->
+            <!-- </li> -->
         </ul>
     </div>
     <!-- end sidebar -->
