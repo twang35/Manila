@@ -7,6 +7,9 @@
     <link href="css/bootstrap/bootstrap.css" rel="stylesheet" />
     <link href="css/bootstrap/bootstrap-overrides.css" type="text/css" rel="stylesheet" />
 
+    <!-- slick -->
+    <link rel="stylesheet" type="text/css" href="slick/slick/slick.css"/>
+
     <!-- libraries -->
     <link href="css/lib/jquery-ui-1.10.2.custom.css" rel="stylesheet" type="text/css" />
     <link href="css/lib/font-awesome.css" type="text/css" rel="stylesheet" />

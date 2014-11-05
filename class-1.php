@@ -34,50 +34,51 @@ include("header.php");
 
         <div class="row col-md-offset-1 col-md-10 col-md-offset-1" style="padding-top: 30px;">
         	<div class="col-md-12">
-	        	<div id="myCarousel" class="carousel slide">
-				  <ol class="carousel-indicators">
-				    <li data-target="#myCarousel" data-slide-to="0"></li>
-				    <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
-				    <li data-target="#myCarousel" data-slide-to="2"></li>
-				  </ol>
-				  <!-- Carousel items -->
-				  <div class="carousel-inner" style="height: 280px;" align="center">
-				    <div class="item">
-				    	<div class="row" style="margin-top: 20px;">
-				    		<div class="col-md-4">
-				    			<div class="col-md-12"><h1>93</h1></div>
-				    			<div class="col-md-12" style="margin-bottom: 20px;"><h3>Current Grade</h3></div> 
-				    		</div>
-				    		<div class="col-md-4">
-				    			<div class="col-md-12"><h1>A-</h1></div>
-				    			<div class="col-md-12" style="margin-bottom: 20px;"><h3>Letter Grade</h3></div> 
-				    		</div>
-				    		<div class="col-md-4">
-				    			<div class="col-md-12"><h1>2.5</h1></div>
-				    			<div class="col-md-12" style="margin-bottom: 20px;"><h3>Z-Score</h3></div>
-				    		</div>
-				    	</div>
-				    </div>
-				    <div class="active item">
-                        <!-- morris graph chart -->
-                        <div class="row" style="width: 100%;">
-                            <div class="col-md-12">
-                                <h4 class="title">Progress</h4>
-                            </div>
-                            <div class="col-md-12">                        
-                                <div id="hero-graph" style="height: 230px; width: 100%;"></div>
+                <div class="slider single-item">
+                    <div class="row" style="margin-top: 20px;">
+                        <div class="col-md-4">
+                            <div class="col-md-12"><h1>93</h1></div>
+                            <div class="col-md-12" style="margin-bottom: 20px;"><h3>Current Grade</h3></div> 
+                        </div>
+                        <div class="col-md-4">
+                            <div class="col-md-12"><h1>A-</h1></div>
+                            <div class="col-md-12" style="margin-bottom: 20px;"><h3>Letter Grade</h3></div> 
+                        </div>
+                        <div class="col-md-4">
+                            <div class="col-md-12"><h1>2.5</h1></div>
+                            <div class="col-md-12" style="margin-bottom: 20px;"><h3>Z-Score</h3></div>
+                        </div>
+                    </div>
+                    <!-- morris graph chart -->
+                    <div class="row" style="width: 100%;">
+                        <div class="col-md-12">
+                            <h4 class="title">Progress</h4>
+                        </div>
+                        <div class="col-md-12">                        
+                            <div id="hero-graph" style="height: 230px; width: 100%;"></div>
+                        </div>
+                    </div>
+                    <!-- jQuery flot chart -->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4 class="title pull-left">
+                                jQuery Flot <small>Monthly growth</small>                        
+                            </h4>
+                            <div class="btn-group pull-right">
+                                <button class="glow left">DAY</button>
+                                <button class="glow middle active">MONTH</button>
+                                <button class="glow right">YEAR</button>
                             </div>
                         </div>
-				    </div>
-				    
-				  </div>
-				  <!-- Carousel nav -->
-				  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-				  <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
-				</div>
+                        <div class="span12">
+                            <div id="statsChart"></div>
+                        </div>
+                    </div>
+                    <div><h3>4</h3></div>
+                </div>
 			</div>
 
-			<div class="row section" style="margin-top:0px; padding-top:0px;"></div>
+			<div class="row section" style="margin-top:50px; padding-top:0px;"></div>
 
             <div class="row" style="padding-top:70px" align="center">
                         <div class="row" style="width: 100%;">
@@ -115,6 +116,8 @@ include("header.php");
                     <div class="col-md-12" style="margin-bottom: 20px;"><h3>Average Needed</h3></div>
                 </div>
             </div>
+
+            <div class="row section"></div>
 
             <div class="row grdbk" align="center">
                 <h1 >Gradebook</h1>
@@ -255,23 +258,6 @@ include("header.php");
                 </div>
             </div>
 
-            <!-- jQuery flot chart -->
-            <div class="row section">
-                <div class="col-md-12">
-                    <h4 class="title pull-left">
-                        jQuery Flot <small>Monthly growth</small>                        
-                    </h4>
-                    <div class="btn-group pull-right">
-                        <button class="glow left">DAY</button>
-                        <button class="glow middle active">MONTH</button>
-                        <button class="glow right">YEAR</button>
-                    </div>
-                </div>
-                <div class="span12">
-                    <div id="statsChart"></div>
-                </div>
-            </div>
-
             <!-- morris bar & donut charts -->
             <div class="row section">
                 <div class="col-md-12">
@@ -328,6 +314,11 @@ include("header.php");
     <script src="js/morris.min.js"></script>
     <!-- call all plugins -->
     <script src="js/theme.js"></script>
+
+    <!-- slick -->
+    <script type="text/javascript" src="slick/slick/slick.js"></script>
+    <script type="text/javascript" src="slick/js/scripts.js"></script>
+
 
     <!-- build the charts -->
     <script type="text/javascript">
