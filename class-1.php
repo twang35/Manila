@@ -116,7 +116,7 @@ include("header.php");
                 </div>
             </div>
 
-            <div class="row" align="center" style="margin-top:70px; background-color:#f6f6f6;">
+            <div class="row" align="center" style="margin-top:70px; background-color:#ffffff;">
                 <h1 style="background:rgb(238, 238, 238);">Gradebook</h1>
                 <div class="div-scroll">
                     <div class="row" align="left">
