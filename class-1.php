@@ -75,7 +75,7 @@ include("header.php");
                         </div>
                     </div>
                     <div>
-                     <div class="row" style="padding-top:70px" align="center">
+                    g <div class="row" style="padding-top:70px" align="center">
                         <div class="row" style="width: 100%;">
                             <div class="col-md-6 chart">
                                 <h5>Assignment Type</h5>
@@ -94,14 +94,14 @@ include("header.php");
 
            
 
-            <div class="row" style="padding-top:50px" align="center">
+           <!--  <div class="row" style="padding-top:50px" align="center">
                 <div class="row" style="width: 100%;">    
                             <div class="col-md-12 chart">
                                 <h5>Points Recieved of Points Available</h5>
                                 <div id="assignment" style="width: 600px;"></div>
                             </div>
                         </div>
-            </div>
+            </div> -->
 
             <div class="row" style="padding-top:70px" align="center">
                 <div class="col-md-4">
@@ -353,21 +353,21 @@ include("header.php");
             barColors: ["#3d88ba"]
         });
 
-        Morris.Bar({
-            element: 'assignment',
-          data: [
-          { y: 'Quiz-1', a: 100, b: 100 },
-          { y: 'Quiz-2', a: 75,  b: 100 },
-          { y: 'Quiz-3', a: 90,  b: 100 },
-          { y: 'Test-1', a: 85,  b: 100 },
-          { y: 'Test-2', a: 90,  b: 100 },
-          { y: 'Final', a: 75,  b: 100 },
-          { y: 'Attendance', a: 100, b: 100 }
-          ],
-          xkey: 'y',
-          ykeys: ['a', 'b'],
-          labels: ['Series A', 'Series B']
-      });
+      //   Morris.Bar({
+      //       element: 'assignment',
+      //     data: [
+      //     { y: 'Quiz-1', a: 100, b: 100 },
+      //     { y: 'Quiz-2', a: 75,  b: 100 },
+      //     { y: 'Quiz-3', a: 90,  b: 100 },
+      //     { y: 'Test-1', a: 85,  b: 100 },
+      //     { y: 'Test-2', a: 90,  b: 100 },
+      //     { y: 'Final', a: 75,  b: 100 },
+      //     { y: 'Attendance', a: 100, b: 100 }
+      //     ],
+      //     xkey: 'y',
+      //     ykeys: ['a', 'b'],
+      //     labels: ['Series A', 'Series B']
+      // });
 
 
         // Morris Donut Chart
