@@ -74,13 +74,8 @@ include("header.php");
                             <div id="statsChart"></div>
                         </div>
                     </div>
-                    <div><h3>4</h3></div>
-                </div>
-			</div>
-
-			<div class="row section" style="margin-top:50px; padding-top:0px;"></div>
-
-            <div class="row" style="padding-top:70px" align="center">
+                    <div>
+                     <div class="row" style="padding-top:70px" align="center">
                         <div class="row" style="width: 100%;">
                             <div class="col-md-6 chart">
                                 <h5>Assignment Type</h5>
@@ -91,7 +86,13 @@ include("header.php");
                                 <div id="hero-donut-2" style="height: 248px;"></div>    
                             </div>
                         </div>
-            </div>
+            </div></div>
+                </div>
+			</div>
+
+			<div class="row section" style="margin-top:50px; padding-top:0px;"></div>
+
+           
 
             <div class="row" style="padding-top:50px" align="center">
                 <div class="row" style="width: 100%;">    
