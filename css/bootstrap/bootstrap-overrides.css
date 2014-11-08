@@ -14,6 +14,11 @@ body{
 	color: #606060;
 }
 
+.captionsgrade{
+	font-size: 14px;
+	color: #808080;
+}
+
 /* COMPONENTS */
 .col-md-3-classBar {
 	padding: 15px; 

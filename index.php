@@ -33,15 +33,15 @@ include("header.php");
 	                    <input type="text" value="97" class="knob second" data-thickness=".3" data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
 	                </div>
 	            </div>
-	           	<div class="row" style="margin-bottom:10px;">
+	           	<div class="row" style="margin-bottom:10px;" class="captionsgrade">
 	           		<div class="col-md-4">
-			           	<h4>Current Grade</h4>
+			           	<h4 class="captionsgrade">Current Grade</h4>
 			        </div>
 			        <div class="col-md-4">
-			           	<h4>Current Grade</h4>
+			           	<h4 class="captionsgrade">Current Grade</h4>
 			        </div>
 			        <div class="col-md-4">
-			           	<h4>Goal Grade</h4>
+			           	<h4 class="captionsgrade">Goal Grade</h4>
 			        </div>
 	           	</div>
 	           	<div class="row">
@@ -62,13 +62,13 @@ include("header.php");
 	           	</div>
 	           	<div class="row" style="margin-bottom:10px;">
 	           		<div class="col-md-4">
-			           	<h4>Current Grade</h4>
+			           	<h4 class="captionsgrade">Current Grade</h4>
 			        </div>
 			        <div class="col-md-4">
-			           	<h4>Current Grade</h4>
+			           	<h4 class="captionsgrade">Current Grade</h4>
 			        </div>
 			        <div class="col-md-4">
-			           	<h4>Goal Grade</h4>
+			           	<h4 class="captionsgrade">Goal Grade</h4>
 			        </div>
 	           	</div>
 	           	<div class="row">
@@ -89,13 +89,13 @@ include("header.php");
 	           	</div>
 	           	<div class="row" style="margin-bottom:10px;">
 	           		<div class="col-md-4">
-			           	<h4>Current Grade</h4>
+			           	<h4 class="captionsgrade">Current Grade</h4>
 			        </div>
 			        <div class="col-md-4">
-			           	<h4>Current Grade</h4>
+			           	<h4 class="captionsgrade">Current Grade</h4>
 			        </div>
 			        <div class="col-md-4">
-			           	<h4>Goal Grade</h4>
+			           	<h4 class="captionsgrade">Goal Grade</h4>
 			        </div>
 	           	</div>
 	        </div>
