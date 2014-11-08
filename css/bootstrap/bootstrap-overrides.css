@@ -2,10 +2,10 @@
 
 @font-face {
     font-family: HelveticaNeue-ultraLight;
-    src: url('fonts/helvetica-neue-ultra-light.ttf');;
+    src: url('../../font/helvetica-neue-ultra-light.ttf');;
 }
 
-h1,h2,h3,h4,h5,h6{
+body{
 	font-weight: normal;
 	font-family: HelveticaNeue-ultraLight;
 }
