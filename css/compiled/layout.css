@@ -2,6 +2,14 @@
   color:#606060;
 }
 
+.points{
+  color:#707070;
+}
+
+.scorecap{
+  color:#808080;
+}
+
 body { 
   font-weight: 300;
   background-color: #f7f7f7;

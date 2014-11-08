@@ -162,8 +162,11 @@ include("header.php");
                         </div>
                         <div class="col-md-2" style="padding:0px;">
                             <div class="col-md-12">
-                                <h3>47 Pts</h3>
-                                <div style="border-top:1px"><h4>50 Pts</h4></div>
+                                <h3 class="points">47/50</h3>
+                                <div style="border-top:1px"><h4><!--50 Pts--></h4></div>
+                            </div>
+                            <div class="col-md-12">
+                                <h3  class="scorecap">Score</h3>
                             </div>
                         </div>
                         <div class="col-md-2" style="padding:0px;">
@@ -206,8 +209,11 @@ include("header.php");
                         </div>
                         <div class="col-md-2" style="padding:0px;">
                             <div class="col-md-12">
-                                <h3>47 Pts</h3>
-                                <div style="border-top:1px"><h4>50 Pts</h4></div>
+                                <h3 class="points">47/50</h3>
+                                <div style="border-top:1px"><h4><!--50 Pts--></h4></div>
+                            </div>
+                            <div class="col-md-12">
+                                <h3  class="scorecap">Score</h3>
                             </div>
                         </div>
                         <div class="col-md-2" style="padding:0px;">
@@ -250,8 +256,11 @@ include("header.php");
                         </div>
                         <div class="col-md-2" style="padding:0px;">
                             <div class="col-md-12">
-                                <h3>47 Pts</h3>
-                                <div style="border-top:1px"><h4>50 Pts</h4></div>
+                                <h3 class="points">47/50</h3>
+                                <div style="border-top:1px"><h4><!--50 Pts--></h4></div>
+                            </div>
+                            <div class="col-md-12">
+                                <h3 class="scorecap">Score</h3>
                             </div>
                         </div>
                         <div class="col-md-2" style="padding:0px;">
