@@ -131,7 +131,7 @@ include("header.php");
                 <div class="div-scroll">
                     <div class="row" align="left">
                         <div class="col-md-7">
-                            <h3>Cell Regeneration Paper</h3>
+                            <h3 class="assignmentColor">Cell Regeneration Paper (11/13)</h3>
                         </div>
                         <div class="col-md-7">
                             <h4>Date: Nov 13</h4>
@@ -175,7 +175,7 @@ include("header.php");
                     </div>
                     <div class="row" align="left">
                         <div class="col-md-7">
-                            <h3>Cell Regeneration Paper</h3>
+                            <h3 class="assignmentColor">Cell Regeneration Paper (11/13)</h3>
                         </div>
                         <div class="col-md-7">
                             <h4>Date: Nov 13</h4>
@@ -219,7 +219,7 @@ include("header.php");
                     </div>
                     <div class="row" align="left">
                         <div class="col-md-7">
-                            <h3>Cell Regeneration Paper</h3>
+                            <h3 class="assignmentColor">Cell Regeneration Paper (11/13)</h3>
                         </div>
                         <div class="col-md-7">
                             <h4>Date: Nov 13</h4>
