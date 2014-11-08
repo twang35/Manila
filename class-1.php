@@ -126,6 +126,56 @@ include("header.php");
                 <h1 >Gradebook</h1>
                 <hr>
                 <div class="div-scroll">
+                <div class="grade-block">
+                    <div class="row" align="left">
+                        <div class="col-md-7">
+                            <h3 class="assignmentColor">Cell Regeneration Paper (11/11)</h3>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-top: 10px;">
+                        <div class="col-md-2" style="padding-right:0px;">
+                            <div class="col-md-12">
+                                <h1>A-</h1>
+                            </div>
+                            <div class="col-md-12">
+                                <h3>Grade</h3>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                                <input type="text" value="94" class="knob second" data-thickness=".3" data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
+                            <div class="col-md-12">
+                                <h3>% Grade</h3>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="col-md-12">
+                                <input type="text" value="30" class="knob second" data-thickness=".3" data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
+                            </div>
+                            <div class="col-md-12">
+                                <h3>Received Weight</h3>
+                            </div>
+                        </div>
+                        <div class="col-md-2" style="padding:0px;">
+                            <div class="col-md-12">
+                                <h3 class="points">47/50</h3>
+                                <div style="border-top:1px"><h4><!--50 Pts--></h4></div>
+                            </div>
+                            <div class="col-md-12">
+                                <h3  class="scorecap">Score</h3>
+                            </div>
+                        </div>
+                        <div class="col-md-2" style="padding:0px;">
+                            <div class="col-md-12" style="padding:0px;">
+                                <h3>45/50</h3>
+                                <div style="border-top:1px"><h4><!--50 Total Pts--></h4></div>
+                            </div>
+                            <div class="col-md-12">
+                                <h3 class="classavgcap">Class Average</h3>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                <div class="grade-block">
                     <div class="row" align="left">
                         <div class="col-md-7">
                             <h3 class="assignmentColor">Cell Regeneration Paper (11/13)</h3>
@@ -173,53 +223,8 @@ include("header.php");
                             </div>
                         </div>
                     </div>
-                    <div class="row" align="left">
-                        <div class="col-md-7">
-                            <h3 class="assignmentColor">Cell Regeneration Paper (11/13)</h3>
-                        </div>
                     </div>
-                    <div class="row" style="margin-top: 10px;">
-                        <div class="col-md-2" style="padding-right:0px;">
-                            <div class="col-md-12">
-                                <h1>A-</h1>
-                            </div>
-                            <div class="col-md-12">
-                                <h3>Grade</h3>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                                <input type="text" value="94" class="knob second" data-thickness=".3" data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
-                            <div class="col-md-12">
-                                <h3>% Grade</h3>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="col-md-12">
-                                <input type="text" value="30" class="knob second" data-thickness=".3" data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
-                            </div>
-                            <div class="col-md-12">
-                                <h3>Received Weight</h3>
-                            </div>
-                        </div>
-                        <div class="col-md-2" style="padding:0px;">
-                            <div class="col-md-12">
-                                <h3 class="points">47/50</h3>
-                                <div style="border-top:1px"><h4><!--50 Pts--></h4></div>
-                            </div>
-                            <div class="col-md-12">
-                                <h3  class="scorecap">Score</h3>
-                            </div>
-                        </div>
-                        <div class="col-md-2" style="padding:0px;">
-                            <div class="col-md-12" style="padding:0px;">
-                                <h3>45/50</h3>
-                                <div style="border-top:1px"><h4><!--50 Total Pts--></h4></div>
-                            </div>
-                            <div class="col-md-12">
-                                <h3 class="classavgcap">Class Average</h3>
-                            </div>
-                        </div>
-                    </div>
+                <div class="grade-block">
                     <div class="row" align="left">
                         <div class="col-md-7">
                             <h3 class="assignmentColor">Cell Regeneration Paper (11/13)</h3>
@@ -265,6 +270,7 @@ include("header.php");
                             <div class="col-md-12">
                                 <h3 class="classavgcap">Class Average</h3>
                             </div>
+                        </div>
                         </div>
                     </div>
                 </div>
@@ -340,14 +346,10 @@ include("header.php");
     <!-- build the charts -->
     <script type="text/javascript">
 		$(document).ready(function() {
-
-		    
-
 		    for (var i = 0; i < Object.keys(studentDataSource.assignments).length; i += 1) {
 		        totalGrade += studentDataSource.assignments[i].grade * studentDataSource.assignments[i].weight;
 		        totalWeight += studentDataSource.assignments[i].weight * 1;
 		    }
-
 		    var averageGrade = totalGrade / totalWeight;
 		    document.getElementById("knob2").value = Math.round(averageGrade);
 		    $('#knob2')
@@ -357,6 +359,7 @@ include("header.php");
             $('#knob3')
                 .val(neededAverage).trigger('change');
 		});
+
 		$('#knob3').knob({
 				'stopper':false
 		    });
