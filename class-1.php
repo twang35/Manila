@@ -559,18 +559,19 @@ include("header.php");
 
         // Morris Line Chart
         var tax_data = [
-            {"z-score": "-3", "visits": .1},
-            {"z-score": "-2", "visits": .2},
-            {"z-score": "-1", "visits": .3},
-            {"z-score": "0", "visits": .4},
-            {"z-score": "1", "visits": .3},
-            {"z-score": "2", "visits": .2},
-            {"z-score": "3", "visits": .1}
+            {"period": "2013-04", "visits": 2407},
+            {"period": "2013-03", "visits": 3351},
+            {"period": "2013-02", "visits": 2469},
+            {"period": "2013-01", "visits": 2246},
+            {"period": "2012-12", "visits": 3171},
+            {"period": "2012-11", "visits": 2155},
+            {"period": "2012-10", "visits": 1226},
+            {"period": "2012-09", "visits": 2245}
         ];
         Morris.Line({
             element: 'hero-graph-progress',
             data: tax_data,
-            xkey: 'z-score',
+            xkey: 'period',
             xLabels: "month",
             ykeys: ['visits'],
             labels: ['Your Average'],
