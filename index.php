@@ -12,7 +12,7 @@ include("header.php");
 	    <div class="row" align="center" style="margin:20px;">
 			<iframe width="100%" height="350" src="//www.youtube.com/embed/2t15vP1PyoA" frameborder="1" allowfullscreen></iframe>
 		</div>
-        <div class="row" align="center" style="margin:20px; border:1px solid silver; background-color:#f6f6f6;">
+        <div class="row" align="center" style="margin:20px; border-top:1px solid silver; border-bottom:1px solid silver; background-color:white;">
             <div class="my-courses-title">
                 <h1>My Courses</h1>
             </div>
@@ -99,21 +99,6 @@ include("header.php");
 			        </div>
 	           	</div>
 	        </div>
-            <div class="row">
-            	<div class="courses-GPA">
-	            	<div class="col-md-4">
-	            		<h4>Goal GPA:</h4><input type="text" class="form-control" placeholder="3.75" style="width:50px">
-	            	</div>
-	            	<div class="col-md-4">
-	            		<h4>Current GPA</h4>
-	            		<h4>3.71</h4>
-	            	</div>
-	            	<div class="col-md-4">
-	            		<h4>Days Left in Semester</h4>
-	            		<h4>132</h4>
-	            	</div>
-	            </div>
-            </div>
             <br>
         </div>
     </div>
