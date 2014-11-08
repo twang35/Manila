@@ -34,11 +34,11 @@ include("header.php");
 
         <div class="row" style="margin-top: 20px;">
             <div class="col-md-6">
-                <div class="col-md-12 center-statsUp"><h1>93</h1></div>
+                <div class="col-md-12 center-statsUp">93%</div>
                 <div class="col-md-12 center-statsBo"><h3>Current Grade</h3></div> 
             </div>
             <div class="col-md-6">
-                <div class="col-md-12 center-statsUp"><h1>A-</h1></div>
+                <div class="col-md-12 center-statsUp">A-</div>
                 <div class="col-md-12 center-statsBo"><h3>Letter Grade</h3></div> 
             </div>
             <!-- <div class="col-md-4">
@@ -91,7 +91,7 @@ include("header.php");
                             <h4 class="title">Progress</h4>
                         </div>
                         <div class="col-md-12">                        
-                            <div id="hero-graph" style="height: 230px; width: 100%;"></div>
+                            <div id="hero-graph-progress" style="height: 230px; width: 100%;"></div>
                         </div>
                     </div>
                 </div>
@@ -114,7 +114,7 @@ include("header.php");
                 </div>
                 <div class="col-md-4">
                     <div class="col-md-12"><input id='knob2' type="text" class="knob second mid" data-readOnly=true data-thickness=".3" data-inputColor="#333" data-fgColor="#30a1ec" data-bgColor="#d4ecfd" data-width="140"></div>
-                    <div class="col-md-12" style="margin-bottom: 20px;"><h3>Average Needed</h3></div>
+                    <div class="col-md-12" style="margin-bottom: 20px;"><h3>Current Average</h3></div>
                 </div>
                 <div class="col-md-4">
                     <div class="col-md-12"><input id='knob3' type="text" class="knob second mid" data-thickness=".3" data-readOnly=true  data-inputColor="#333" data-fgColor="#30a1ec" data-bgColor="#d4ecfd" data-width="140"></div>
@@ -130,9 +130,6 @@ include("header.php");
                         <div class="col-md-7">
                             <h3 class="assignmentColor">Cell Regeneration Paper (11/13)</h3>
                         </div>
-                        <div class="col-md-7">
-                            <h4>Date: Nov 13</h4>
-                        </div>
                     </div>
                     <div class="row" style="margin-top: 10px;">
                         <div class="col-md-2" style="padding-right:0px;">
@@ -180,9 +177,6 @@ include("header.php");
                         <div class="col-md-7">
                             <h3 class="assignmentColor">Cell Regeneration Paper (11/13)</h3>
                         </div>
-                        <div class="col-md-7">
-                            <h4>Date: Nov 13</h4>
-                        </div>
                     </div>
                     <div class="row" style="margin-top: 10px;">
                         <div class="col-md-2" style="padding-right:0px;">
@@ -229,9 +223,6 @@ include("header.php");
                     <div class="row" align="left">
                         <div class="col-md-7">
                             <h3 class="assignmentColor">Cell Regeneration Paper (11/13)</h3>
-                        </div>
-                        <div class="col-md-7">
-                            <h4>Date: Nov 13</h4>
                         </div>
                     </div>
                     <div class="row" style="margin-top: 10px;">
@@ -527,7 +518,7 @@ include("header.php");
                 {label: 'Tests', value: 25 },
                 {label: 'Attendance', value: 10 }
             ],
-            colors: ["#30a1ec", "#76bdee", "#c4dafe"],
+            colors: ["#B0B0B0", "#B27474", "#AD2A2A"],
             formatter: function (y, data) { return y + "%" }
             // resize: true
         
@@ -543,7 +534,7 @@ include("header.php");
                 {label: 'Quiz-3', value: 10 },
                 {label: 'Homework', value: 5 }
             ],
-            colors: ["#30a1ec", "#76bdee", "#c4dafe"],
+            colors: ["#B0B0B0", "#B27474", "#AD2A2A"],
             formatter: function (y, data) { return y + "%" },
             // resize: true
 
@@ -568,22 +559,22 @@ include("header.php");
 
         // Morris Line Chart
         var tax_data = [
-            {"period": "2013-04", "visits": 2407, "signups": 660},
-            {"period": "2013-03", "visits": 3351, "signups": 729},
-            {"period": "2013-02", "visits": 2469, "signups": 1318},
-            {"period": "2013-01", "visits": 2246, "signups": 461},
-            {"period": "2012-12", "visits": 3171, "signups": 1676},
-            {"period": "2012-11", "visits": 2155, "signups": 681},
-            {"period": "2012-10", "visits": 1226, "signups": 620},
-            {"period": "2012-09", "visits": 2245, "signups": 500}
+            {"z-score": "-3", "visits": .1},
+            {"z-score": "-2", "visits": .2},
+            {"z-score": "-1", "visits": .3},
+            {"z-score": "0", "visits": .4},
+            {"z-score": "1", "visits": .3},
+            {"z-score": "2", "visits": .2},
+            {"z-score": "3", "visits": .1}
         ];
         Morris.Line({
-            element: 'hero-graph',
+            element: 'hero-graph-progress',
             data: tax_data,
-            xkey: 'period',
+            xkey: 'z-score',
             xLabels: "month",
-            ykeys: ['visits', 'signups'],
-            labels: ['Your Average', 'Class Average']
+            ykeys: ['visits'],
+            labels: ['Your Average'],
+            lineColors: ['#cc0033']
         });
 
 
