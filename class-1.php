@@ -281,7 +281,10 @@ include("header.php");
                     </div>
                 </div>
             </div>
-
+<br>
+<br>
+<br>
+<hr class="linebreak">
             <!-- morris bar & donut charts -->
             <div class="row section">
                 <div class="col-md-12">
