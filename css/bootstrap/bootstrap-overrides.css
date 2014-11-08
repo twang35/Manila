@@ -1,8 +1,13 @@
 /* Some overrides from default bootstrap styles */
 
+@font-face {
+    font-family: HelveticaNeue-ultraLight;
+    src: url('fonts/helvetica-neue-ultra-light.ttf');;
+}
+
 h1,h2,h3,h4,h5,h6{
 	font-weight: normal;
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-family: HelveticaNeue-ultraLight;
 }
 
 /* COMPONENTS */
