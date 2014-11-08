@@ -49,11 +49,12 @@ h3.Course-Num {
 .center-statsUp {
 	text-align: center;
 	font-size: 120px;
+	color: #919191;
 }
 
 .center-statsBo {
 	margin-bottom: 20px; 
-	text-align: center
+	text-align: center;
 }
 .row.grdbk {
 	margin-top:70px; 
