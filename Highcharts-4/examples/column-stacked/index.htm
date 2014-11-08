@@ -56,7 +56,7 @@ $(function () {
                 stacking: 'normal',
                 dataLabels: {
                     enabled: true,
-                    color: (Highcharts.theme && Highcharts.theme.dataLabelsColor) || 'white',
+                    color: (Highcharts.theme && Highcharts.theme.dataLabelsColor) || 'gray',
                     style: {
                         textShadow: '0 0 3px black, 0 0 3px black'
                     }
@@ -65,7 +65,8 @@ $(function () {
         },
         series: [{
             name: 'John',
-            data: [5, 3, 4, 7, 2]
+            data: [5, 3, 4, 7, 2],
+            color: 'red'
         }, {
             name: 'Jane',
             data: [2, 2, 3, 2, 1]

@@ -90,8 +90,6 @@ include("header.php");
                     </div>
                     <div>
                         <div class="row" style="padding-top:70px" align="center">
-                            <script src="http://code.highcharts.com/highcharts.js"></script>
-                            <script src="http://code.highcharts.com/modules/exporting.js"></script>
                             <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
                         </div>
                     </div>
@@ -113,15 +111,15 @@ include("header.php");
 
             <div class="row" style="padding-top:70px" align="center">
                 <div class="col-md-4">
-                    <div class="col-md-12"><input type="text" value="95" class="knob second" data-thickness=".3" data-inputColor="#333" data-fgColor="#30a1ec" data-bgColor="#d4ecfd" data-width="140"></div>
+                    <div class="col-md-12"><input type="text" value="95" class="knob second mid" data-thickness=".3" data-inputColor="#333" data-fgColor="#30a1ec" data-bgColor="#d4ecfd" data-width="140" text-width="40"></div>
                     <div class="col-md-12" style="margin-bottom: 20px;"><h3>Goal Grade</h3></div> 
                 </div>
                 <div class="col-md-4">
-                    <div class="col-md-12"><input type="text" value="93" class="knob second" data-thickness=".3" data-inputColor="#333" data-fgColor="#30a1ec" data-bgColor="#d4ecfd" data-width="140"></div>
+                    <div class="col-md-12"><input type="text" value="93" class="knob second mid" data-thickness=".3" data-inputColor="#333" data-fgColor="#30a1ec" data-bgColor="#d4ecfd" data-width="140"></div>
                     <div class="col-md-12" style="margin-bottom: 20px;"><h3>Current Average</h3></div> 
                 </div>
                 <div class="col-md-4">
-                    <div class="col-md-12"><input type="text" value="97" class="knob second" data-thickness=".3" data-inputColor="#333" data-fgColor="#30a1ec" data-bgColor="#d4ecfd" data-width="140"></div>
+                    <div class="col-md-12"><input type="text" value="97" class="knob second mid" data-thickness=".3" data-inputColor="#333" data-fgColor="#30a1ec" data-bgColor="#d4ecfd" data-width="140"></div>
                     <div class="col-md-12" style="margin-bottom: 20px;"><h3>Average Needed</h3></div>
                 </div>
             </div>
@@ -327,6 +325,8 @@ include("header.php");
     <!-- slick -->
     <script type="text/javascript" src="slick/slick/slick.js"></script>
     <script type="text/javascript" src="slick/js/scripts.js"></script>
+    <script src="Highcharts-4/js/highcharts.js"></script>
+    <script src="Highcharts-4/js/modules/exporting.js"></script>
 
 
     <!-- build the charts -->
@@ -349,12 +349,12 @@ include("header.php");
                     text: 'Stacked column chart'
                 },
                 xAxis: {
-                    categories: ['Apples', 'Oranges', 'Pears', 'Grapes', 'Bananas']
+                    categories: ['Tests', 'Homework', 'Quizzes', 'Attendance']
                 },
                 yAxis: {
                     min: 0,
                     title: {
-                        text: 'Total fruit consumption'
+                        text: 'Total points'
                     },
                     stackLabels: {
                         enabled: true,
@@ -395,14 +395,13 @@ include("header.php");
                     }
                 },
                 series: [{
-                    name: 'John',
-                    data: [5, 3, 4, 7, 2]
+                    name: 'Points Missing',
+                    data: [20, 10, 24, 0],
+                    color: 'pink'
                 }, {
-                    name: 'Jane',
-                    data: [2, 2, 3, 2, 1]
-                }, {
-                    name: 'Joe',
-                    data: [3, 4, 4, 2, 5]
+                    name: 'Points Recieved',
+                    data: [80, 90, 76, 100],
+                    color: 'red'
                 }]
             });
 });
