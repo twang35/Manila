@@ -14,12 +14,12 @@ include("header.php");
 		</div>
         <div class="row" align="center" style="margin:20px; border-top:1px solid silver; border-bottom:1px solid silver; background-color:white;">
             <div class="my-courses-title">
-                <h1>My Courses</h1>
+                <h1 style="color:#505050;">MY COURSES</h1>
             </div>
             <div class="div-scroll">
 	            <div class="row">
 	                <div class="col-md-4" align="center" style="margin-top:10px;">
-	                    <a href="/class-1.php"><span style="font-size: 24px">Biology 141</span></a>
+	                    <a href="/class-1.php"><span class="classes" style="font-size: 24px">Biology 141</span></a>
 	                </div>	
 	            </div>
 	            <div class="row">
@@ -46,7 +46,7 @@ include("header.php");
 	           	</div>
 	           	<div class="row">
 	                <div class="col-md-4">
-	                    <a href="/class-2.php"><span style="font-size: 24px">Econ 121</span></a>
+	                    <a href="/class-2.php"><span class="classes" style="font-size: 24px">Econ 121</span></a>
 	                </div>	
 	            </div>
 	           	<div class="row">
@@ -73,7 +73,7 @@ include("header.php");
 	           	</div>
 	           	<div class="row">
 	                <div class="col-md-4">
-	                    <a href="/class-3.php"><span style="font-size: 24px">Eng 181</span></a>
+	                    <a href="/class-3.php"><span class="classes" style="font-size: 24px">Eng 181</span></a>
 	                </div>	
 	            </div>
 	           	<div class="row">

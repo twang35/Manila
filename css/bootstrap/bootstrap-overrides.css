@@ -10,6 +10,10 @@ body{
 	font-family: HelveticaNeue-ultraLight;
 }
 
+.classes{
+	color: #606060;
+}
+
 /* COMPONENTS */
 .col-md-3-classBar {
 	padding: 15px; 
