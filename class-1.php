@@ -109,14 +109,15 @@ include("header.php");
 
             <div class="row line" style="padding-top:70px" align="center">
                 <div class="col-md-4">
-                    <div class="col-md-12"><input type="text" value="95" class="knob second mid" data-thickness=".3" data-inputColor="#333" data-fgColor="#30a1ec" data-bgColor="#d4ecfd" data-width="140" text-width="40"></div>
+                    <div class="col-md-12"><input id='knob1' type="text"  class="knob second mid" data-thickness=".3" data-inputColor="#333" data-fgColor="#30a1ec" data-bgColor="#d4ecfd" data-width="140" text-width="40"></div>
                     <div class="col-md-12" style="margin-bottom: 20px;"><h3>Goal Grade</h3></div> 
                 </div>
                 <div class="col-md-4">
-                    
+                    <div class="col-md-12"><input id='knob2' type="text" class="knob second mid" data-thickness=".3" data-inputColor="#333" data-fgColor="#30a1ec" data-bgColor="#d4ecfd" data-width="140"></div>
+                    <div class="col-md-12" style="margin-bottom: 20px;"><h3>Average Needed</h3></div>
                 </div>
                 <div class="col-md-4">
-                    <div class="col-md-12"><input type="text" value="97" class="knob second mid" data-thickness=".3" data-inputColor="#333" data-fgColor="#30a1ec" data-bgColor="#d4ecfd" data-width="140"></div>
+                    <div class="col-md-12"><input id='knob3' type="text" class="knob second mid" data-thickness=".3" data-inputColor="#333" data-fgColor="#30a1ec" data-bgColor="#d4ecfd" data-width="140"></div>
                     <div class="col-md-12" style="margin-bottom: 20px;"><h3>Average Needed</h3></div>
                 </div>
             </div>
@@ -347,7 +348,43 @@ include("header.php");
 
     <!-- build the charts -->
     <script type="text/javascript">
+$(document).ready(function() {
+    var studentDataSource = {
+        'assignments': [{
+            'assignmentName': 'quiz1',
+            'grade': '60',
+            'weight': '3'
+        }, {
+            'assignmentName': 'homework1',
+            'grade': '84',
+            'weight': '1'
+        }, {
+            'assignmentName': 'mideterm1',
+            'grade': '89',
+            'weight': '25'
+        }]
+    };
+    for (var i = 0; i < Object.keys(studentDataSource.assignments).length; i += 1) {
+        totalGrade += studentDataSource.assignments[i].grade * studentDataSource.assignments[i].weight;
+        totalWeight += studentDataSource.assignments[i].weight * 1;
+    }
 
+    var averageGrade = Math.round(totalGrade / totalWeight);
+    document.getElementById("knob2").value = averageGrade;
+    $('#knob2')
+        .val(averageGrade).trigger('change');
+});
+
+var totalGrade = 0;
+var totalWeight = 0;
+$('#knob1').knob({
+    'change': function(event) {
+        var neededAverage = (document.getElementById("knob1").value - (document.getElementById("knob2").value * (totalWeight / 100))) / (1 - (totalWeight / 100));
+        document.getElementById("knob3").value = neededAverage;
+        $('#knob3')
+            .val(neededAverage).trigger('change');
+    }
+});
         $(function() {
             $('.carousel').each(function(){
                 $(this).carousel({
@@ -468,7 +505,7 @@ include("header.php");
                 {label: 'Tests', value: 25 },
                 {label: 'Attendance', value: 10 }
             ],
-            colors: ["#cc0033", "#F76374", "#B51B2C"],
+            colors: ["#30a1ec", "#76bdee", "#c4dafe"],
             formatter: function (y, data) { return y + "%" }
             // resize: true
         
