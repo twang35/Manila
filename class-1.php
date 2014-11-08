@@ -115,8 +115,7 @@ include("header.php");
                     <div class="col-md-12" style="margin-bottom: 20px;"><h3>Goal Grade</h3></div> 
                 </div>
                 <div class="col-md-4">
-                    <div class="col-md-12"><input type="text" value="93" class="knob second mid" data-thickness=".3" data-inputColor="#333" data-fgColor="#30a1ec" data-bgColor="#d4ecfd" data-width="140"></div>
-                    <div class="col-md-12" style="margin-bottom: 20px;"><h3>Current Average</h3></div> 
+                    
                 </div>
                 <div class="col-md-4">
                     <div class="col-md-12"><input type="text" value="97" class="knob second mid" data-thickness=".3" data-inputColor="#333" data-fgColor="#30a1ec" data-bgColor="#d4ecfd" data-width="140"></div>
