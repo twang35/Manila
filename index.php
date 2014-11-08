@@ -17,6 +17,7 @@ include("header.php");
                 <h1 style="color:#505050;">MY COURSES</h1>
             </div>
             <div class="div-scroll">
+                <div class="grade-block">
 	            <div class="row">
 	                <div class="col-md-4" align="center" style="margin-top:10px;">
 	                    <a href="/class-1.php"><span class="classes" style="font-size: 24px">Biology 141</span></a>
@@ -44,6 +45,8 @@ include("header.php");
 			           	<h4 class="captionsgrade">Goal Grade</h4>
 			        </div>
 	           	</div>
+	           	</div>
+                <div class="grade-block">
 	           	<div class="row">
 	                <div class="col-md-4">
 	                    <a href="/class-2.php"><span class="classes" style="font-size: 24px">Econ 121</span></a>
@@ -71,6 +74,8 @@ include("header.php");
 			           	<h4 class="captionsgrade">Goal Grade</h4>
 			        </div>
 	           	</div>
+	           	</div>
+                <div class="grade-block">
 	           	<div class="row">
 	                <div class="col-md-4">
 	                    <a href="/class-3.php"><span class="classes" style="font-size: 24px">Eng 181</span></a>
@@ -97,6 +102,7 @@ include("header.php");
 			        <div class="col-md-4">
 			           	<h4 class="captionsgrade">Goal Grade</h4>
 			        </div>
+	           	</div>
 	           	</div>
 	        </div>
             <br>
