@@ -21,6 +21,7 @@
     <link rel="stylesheet" type="text/css" href="css/compiled/layout.css" />
     <link rel="stylesheet" type="text/css" href="css/compiled/elements.css" />
     <link rel="stylesheet" type="text/css" href="css/compiled/icons.css" />
+    <link rel="stylesheet" type="text/css" href="css/custom.css" />
 
     <!-- this page specific styles -->
     <link rel="stylesheet" href="css/compiled/index.css" type="text/css" media="screen" />

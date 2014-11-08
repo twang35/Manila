@@ -32,30 +32,27 @@ include("header.php");
             </div>
         </div>
 
-        <div class="row col-md-offset-1 col-md-10 col-md-offset-1" style="padding-top: 30px;">
+        <div class="row" style="margin-top: 20px;">
+            <div class="col-md-6">
+                <div class="col-md-12 center-statsUp"><h1>93</h1></div>
+                <div class="col-md-12 center-statsBo"><h3>Current Grade</h3></div> 
+            </div>
+            <div class="col-md-6">
+                <div class="col-md-12 center-statsUp"><h1>A-</h1></div>
+                <div class="col-md-12 center-statsBo"><h3>Letter Grade</h3></div> 
+            </div>
+            <!-- <div class="col-md-4">
+                <div class="col-md-12"><h1>2.5</h1></div>
+                <div class="col-md-12" style="margin-bottom: 20px;"><h3>Z-Score</h3></div>
+            </div> -->
+        </div>
+
+        <div class="row col-md-offset-1 col-md-10 line" style="padding-top: 30px;">
         	<div class="col-md-12">
-                <div class="slider single-item">
-                    <div class="row" style="margin-top: 20px;">
-                        <div class="col-md-6">
-                            <div class="col-md-12 center-statsUp"><h1>93</h1></div>
-                            <div class="col-md-12 center-statsBo"><h3>Current Grade</h3></div> 
-                        </div>
-                        <div class="col-md-6">
-                            <div class="col-md-12 center-statsUp"><h1>A-</h1></div>
-                            <div class="col-md-12 center-statsBo"><h3>Letter Grade</h3></div> 
-                        </div>
-                        <!-- <div class="col-md-4">
-                            <div class="col-md-12"><h1>2.5</h1></div>
-                            <div class="col-md-12" style="margin-bottom: 20px;"><h3>Z-Score</h3></div>
-                        </div> -->
-                    </div>
-                    <!-- morris graph chart -->
-                    <div class="row" style="width: 100%;">
-                        <div class="col-md-12">
-                            <h4 class="title">Progress</h4>
-                        </div>
-                        <div class="col-md-12">                        
-                            <div id="hero-graph" style="height: 230px; width: 100%;"></div>
+                <div class="slider single-item" style="margin-bottom: 50px;">
+                    <div>
+                        <div class="row" align="center">
+                            <div id="class-breakdown" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
                         </div>
                     </div>
                     <!-- jQuery flot chart -->
@@ -75,7 +72,7 @@ include("header.php");
                         </div>
                     </div>
                     <div>
-                        <div class="row" style="padding-top:70px" align="center">
+                        <div class="row" align="center">
                             <div class="row" style="width: 100%;">
                                 <div class="col-md-6 chart">
                                     <h5>Assignment Type</h5>
@@ -88,16 +85,17 @@ include("header.php");
                             </div>
                         </div>
                     </div>
-                    <div>
-                        <div class="row" align="center">
-                            <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+                    <!-- morris graph chart -->
+                    <div class="row" style="width: 100%;">
+                        <div class="col-md-12">
+                            <h4 class="title">Progress</h4>
+                        </div>
+                        <div class="col-md-12">                        
+                            <div id="hero-graph" style="height: 230px; width: 100%;"></div>
                         </div>
                     </div>
                 </div>
 			</div>
-
-			<div class="row section" style="margin-top:50px; padding-top:0px;"></div>
-
            
 
            <!--  <div class="row" style="padding-top:50px" align="center">
@@ -109,7 +107,7 @@ include("header.php");
                         </div>
             </div> -->
 
-            <div class="row" style="padding-top:70px" align="center">
+            <div class="row line" style="padding-top:70px" align="center">
                 <div class="col-md-4">
                     <div class="col-md-12"><input type="text" value="95" class="knob second mid" data-thickness=".3" data-inputColor="#333" data-fgColor="#30a1ec" data-bgColor="#d4ecfd" data-width="140" text-width="40"></div>
                     <div class="col-md-12" style="margin-bottom: 20px;"><h3>Goal Grade</h3></div> 
@@ -122,8 +120,6 @@ include("header.php");
                     <div class="col-md-12" style="margin-bottom: 20px;"><h3>Average Needed</h3></div>
                 </div>
             </div>
-
-            <div class="row section"></div>
 
             <div class="row grdbk" align="center">
                 <h1 >Gradebook</h1>
@@ -361,12 +357,12 @@ include("header.php");
         });
 
         $(function () {
-            $('#container').highcharts({
+            $('#class-breakdown').highcharts({
                 chart: {
                     type: 'column'
                 },
                 title: {
-                    text: 'Stacked column chart'
+                    text: 'Class Breakdown'
                 },
                 xAxis: {
                     categories: ['Tests', 'Homework', 'Quizzes', 'Attendance']
@@ -421,7 +417,7 @@ include("header.php");
                 }, {
                     name: 'Points Recieved',
                     data: [80, 90, 76, 100],
-                    color: 'red'
+                    color: '#cc0033'
                 }]
             });
 });
@@ -472,7 +468,7 @@ include("header.php");
                 {label: 'Tests', value: 25 },
                 {label: 'Attendance', value: 10 }
             ],
-            colors: ["#30a1ec", "#76bdee", "#c4dafe"],
+            colors: ["#cc0033", "#F76374", "#B51B2C"],
             formatter: function (y, data) { return y + "%" }
             // resize: true
         
@@ -566,7 +562,7 @@ include("header.php");
                         // show: false
                         labelBoxBorderColor: "#fff"
                     },  
-                colors: ["#a7b5c5", "#30a0eb"],
+                colors: ["#a7b5c5", "#cc0033"],
                 xaxis: {
                     ticks: [[1, "JAN"], [2, "FEB"], [3, "MAR"], [4,"APR"], [5,"MAY"], [6,"JUN"], 
                            [7,"JUL"], [8,"AUG"], [9,"SEP"], [10,"OCT"], [11,"NOV"], [12,"DEC"]],
