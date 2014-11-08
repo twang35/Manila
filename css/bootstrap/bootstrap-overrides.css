@@ -1,13 +1,13 @@
 /* Some overrides from default bootstrap styles */
 
 @font-face {
-    font-family: HelveticaNeue-ultraLight;
-    src: url('../../font/helvetica-neue-ultra-light.ttf');;
+    font-family: HelveticaNeue-thin;
+    src: url('../../font/Helvetica-Neue-Light/HelveticaNeue-Light.otf');
 }
 
 body{
 	font-weight: normal;
-	font-family: HelveticaNeue-ultraLight;
+	font-family: HelveticaNeue-thin;
 }
 
 .classes{

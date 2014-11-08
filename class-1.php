@@ -89,7 +89,7 @@ include("header.php");
                         </div>
                     </div>
                     <div>
-                        <div class="row" style="padding-top:70px" align="center">
+                        <div class="row" align="center">
                             <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
                         </div>
                     </div>
