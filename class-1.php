@@ -23,12 +23,12 @@ include("header.php");
 
         <div class="row" style="margin-top: 50px;">
             <div class="col-md-10 col-md-offset-1" align="center">
-                <h1>Biology 141 </h1>
+                <h1 class = "Class-Title">Biology 141 </h1>
             </div>
         </div>
         <div class="row" style="margin-bottom: 10px;" align="center">
             <div class="col-md-10 col-md-offset-1">
-                <h3>Course #3280 </h3>
+                <h3 class="Course-Num">Course #3280 </h3>
             </div>
         </div>
 
@@ -36,18 +36,18 @@ include("header.php");
         	<div class="col-md-12">
                 <div class="slider single-item">
                     <div class="row" style="margin-top: 20px;">
-                        <div class="col-md-4">
-                            <div class="col-md-12"><h1>93</h1></div>
-                            <div class="col-md-12" style="margin-bottom: 20px;"><h3>Current Grade</h3></div> 
+                        <div class="col-md-6">
+                            <div class="col-md-12 center-statsUp"><h1>93</h1></div>
+                            <div class="col-md-12 center-statsBo"><h3>Current Grade</h3></div> 
                         </div>
-                        <div class="col-md-4">
-                            <div class="col-md-12"><h1>A-</h1></div>
-                            <div class="col-md-12" style="margin-bottom: 20px;"><h3>Letter Grade</h3></div> 
+                        <div class="col-md-6">
+                            <div class="col-md-12 center-statsUp"><h1>A-</h1></div>
+                            <div class="col-md-12 center-statsBo"><h3>Letter Grade</h3></div> 
                         </div>
-                        <div class="col-md-4">
+                        <!-- <div class="col-md-4">
                             <div class="col-md-12"><h1>2.5</h1></div>
                             <div class="col-md-12" style="margin-bottom: 20px;"><h3>Z-Score</h3></div>
-                        </div>
+                        </div> -->
                     </div>
                     <!-- morris graph chart -->
                     <div class="row" style="width: 100%;">
@@ -75,18 +75,26 @@ include("header.php");
                         </div>
                     </div>
                     <div>
-                    g <div class="row" style="padding-top:70px" align="center">
-                        <div class="row" style="width: 100%;">
-                            <div class="col-md-6 chart">
-                                <h5>Assignment Type</h5>
-                                <div id="hero-donut-1" style="height: 248px;"></div>    
-                            </div>
-                            <div class="col-md-6 chart">
-                                <h5>Individual Assignments</h5>
-                                <div id="hero-donut-2" style="height: 248px;"></div>    
+                        <div class="row" style="padding-top:70px" align="center">
+                            <div class="row" style="width: 100%;">
+                                <div class="col-md-6 chart">
+                                    <h5>Assignment Type</h5>
+                                    <div id="hero-donut-1" style="height: 248px;"></div>    
+                                </div>
+                                <div class="col-md-6 chart">
+                                    <h5>Individual Assignments</h5>
+                                    <div id="hero-donut-2" style="height: 248px;"></div>    
+                                </div>
                             </div>
                         </div>
-            </div></div>
+                    </div>
+                    <div>
+                        <div class="row" style="padding-top:70px" align="center">
+                            <script src="http://code.highcharts.com/highcharts.js"></script>
+                            <script src="http://code.highcharts.com/modules/exporting.js"></script>
+                            <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+                        </div>
+                    </div>
                 </div>
 			</div>
 
@@ -332,6 +340,72 @@ include("header.php");
             });
         });
 
+        $(function () {
+            $('#container').highcharts({
+                chart: {
+                    type: 'column'
+                },
+                title: {
+                    text: 'Stacked column chart'
+                },
+                xAxis: {
+                    categories: ['Apples', 'Oranges', 'Pears', 'Grapes', 'Bananas']
+                },
+                yAxis: {
+                    min: 0,
+                    title: {
+                        text: 'Total fruit consumption'
+                    },
+                    stackLabels: {
+                        enabled: true,
+                        style: {
+                            fontWeight: 'bold',
+                            color: (Highcharts.theme && Highcharts.theme.textColor) || 'gray'
+                        }
+                    }
+                },
+                legend: {
+                    align: 'right',
+                    x: -70,
+                    verticalAlign: 'top',
+                    y: 20,
+                    floating: true,
+                    backgroundColor: (Highcharts.theme && Highcharts.theme.background2) || 'white',
+                    borderColor: '#CCC',
+                    borderWidth: 1,
+                    shadow: false
+                },
+                tooltip: {
+                    formatter: function () {
+                        return '<b>' + this.x + '</b><br/>' +
+                        this.series.name + ': ' + this.y + '<br/>' +
+                        'Total: ' + this.point.stackTotal;
+                    }
+                },
+                plotOptions: {
+                    column: {
+                        stacking: 'normal',
+                        dataLabels: {
+                            enabled: true,
+                            color: (Highcharts.theme && Highcharts.theme.dataLabelsColor) || 'white',
+                            style: {
+                                textShadow: '0 0 3px black, 0 0 3px black'
+                            }
+                        }
+                    }
+                },
+                series: [{
+                    name: 'John',
+                    data: [5, 3, 4, 7, 2]
+                }, {
+                    name: 'Jane',
+                    data: [2, 2, 3, 2, 1]
+                }, {
+                    name: 'Joe',
+                    data: [3, 4, 4, 2, 5]
+                }]
+            });
+});
 
         // Morris Bar Chart
         Morris.Bar({

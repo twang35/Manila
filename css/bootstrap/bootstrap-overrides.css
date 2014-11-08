@@ -19,6 +19,22 @@ h1,h2,h3,h4,h5,h6{
 	float: left;
 }
 
+h1.Class-Title {
+	color: #505050;
+}
+h3.Course-Num {
+	color: #606060;
+	font-size: 18px;
+}
+
+.center-statsUp {
+	text-align: center;
+}
+
+.center-statsBo {
+	margin-bottom: 20px; 
+	text-align: center
+}
 .row.grdbk {
 	margin-top:70px; 
 	background-color:#ffffff;
