@@ -17,6 +17,38 @@
         <div class="row" align="center" style="margin-bottom: 10px">
             <img src="img/Bell_Curve.png" height="400" width="450" />
         </div>
+<div class="row" align="center" style="margin-bottom: 10px">
+        <div class="bs-example">
+    <table class="table table-striped">
+      <tbody>
+        <tr>
+          <td>Mean</td>
+          <td>75</td>
+        </tr>
+        <tr>
+            <td>Standard Deviation</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>My Score</td>
+            <td>85</td>
+        </tr>
+        <tr>
+            <td>Z-Score</td>
+            <td>0.765</td>
+        </tr>
+        <tr>
+            <td>My Grade</td>
+            <td>B</td>
+        </tr>
+        <tr>
+         <td>Grade Change</td>
+         <td>+</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
         <br>
         <br>
         <br>
