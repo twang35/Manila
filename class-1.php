@@ -141,10 +141,10 @@ include("header.php");
                                     A
                             </div>
                             <div class="col-md-3">
-                                    <input type="text" value="94" class="knob second" data-thickness=".3" data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
+                                    <input type="text" value="94" class="knob second" data-readOnly=true data-thickness=".3" data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
                             </div>
                             <div class="col-md-3">
-                                <input type="text" value="10" class="knob second" data-thickness=".3" data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
+                                <input type="text" value="10" class="knob second" data-thickness=".3" data-readOnly=true data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
                             </div>
                             <div class="col-md-2" style="padding:0px;">
                                 <!-- <h3 class="points">47/50</h3> -->
@@ -185,10 +185,10 @@ include("header.php");
                                     A-
                             </div>
                             <div class="col-md-3">
-                                    <input type="text" value="90" class="knob second" data-thickness=".3" data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
+                                    <input type="text" value="90" class="knob second" data-thickness=".3" data-readOnly=true data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
                             </div>
                             <div class="col-md-3">
-                                <input type="text" value="30" class="knob second" data-thickness=".3" data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
+                                <input type="text" value="30" class="knob second" data-thickness=".3" data-readOnly=true data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
                             </div>
                             <div class="col-md-2" style="padding:0px;">
                                 <!-- <h3 class="points">47/50</h3> -->
@@ -229,10 +229,10 @@ include("header.php");
                                     A
                             </div>
                             <div class="col-md-3">
-                                    <input type="text" value="95" class="knob second" data-thickness=".3" data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
+                                    <input type="text" value="95" class="knob second" data-thickness=".3" data-readOnly=true data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
                             </div>
                             <div class="col-md-3">
-                                <input type="text" value="15" class="knob second" data-thickness=".3" data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
+                                <input type="text" value="15" class="knob second" data-thickness=".3" data-readOnly=true data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
                             </div>
                             <div class="col-md-2" style="padding:0px;">
                                 <!-- <h3 class="points">47/50</h3> -->
@@ -273,10 +273,10 @@ include("header.php");
                                     A-
                             </div>
                             <div class="col-md-3">
-                                    <input type="text" value="94" class="knob second" data-thickness=".3" data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
+                                    <input type="text" value="94" class="knob second" data-thickness=".3" data-readOnly=true data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
                             </div>
                             <div class="col-md-3">
-                                <input type="text" value="30" class="knob second" data-thickness=".3" data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
+                                <input type="text" value="30" class="knob second" data-thickness=".3" data-readOnly=true data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
                             </div>
                             <div class="col-md-2" style="padding:0px;">
                                 <!-- <h3 class="points">47/50</h3> -->
