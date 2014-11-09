@@ -19,7 +19,7 @@
 
     <div class="row" style="margin-top: 50px;">
         <div class="col-md-10 col-md-offset-1" align="center">
-            <h1 class="Class-Title">Biology 141 </h1>
+            <h1 class="Class-Title">Appcology</h1>
         </div>
     </div>
     <div class="row" style="margin-bottom: 10px;" align="center">
@@ -147,22 +147,20 @@
                         </div>
                     </div>
                     <div class="row" style="margin-top: 10px;">
-                        <div class="col-md-2 grbk-letter">
-                            A
+                        <div class="col-md-2 grbk-letter">D</div>
+                        <div class="col-md-3">
+                            <input type="text" value="60" class="knob second" data-readOnly=true data-thickness=".3" data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
                         </div>
                         <div class="col-md-3">
-                            <input type="text" value="94" class="knob second" data-readOnly=true data-thickness=".3" data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
-                        </div>
-                        <div class="col-md-3">
-                            <input type="text" value="10" class="knob second" data-thickness=".3" data-readOnly=true data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
+                            <input type="text" value="5" class="knob second" data-thickness=".3" data-readOnly=true data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
                         </div>
                         <div class="col-md-2" style="padding:0px;">
                             <!-- <h3 class="points">47/50</h3> -->
-                            <h3 class="grbk-top-half">47</h3>
+                            <h3 class="grbk-top-half">30</h3>
                             <h3>50</h3>
                         </div>
                         <div class="col-md-2" style="padding:0px;">
-                            <h3 class="grbk-top-half">45</h3>
+                            <h3 class="grbk-top-half">39</h3>
                             <h3>50</h3>
                         </div>
                     </div>
@@ -192,22 +190,22 @@
                     </div>
                     <div class="row" style="margin-top: 10px;">
                         <div class="col-md-2 grbk-letter">
-                            A-
+                            B
                         </div>
                         <div class="col-md-3">
-                            <input type="text" value="90" class="knob second" data-thickness=".3" data-readOnly=true data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
+                            <input type="text" value="84" class="knob second" data-thickness=".3" data-readOnly=true data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
                         </div>
                         <div class="col-md-3">
-                            <input type="text" value="30" class="knob second" data-thickness=".3" data-readOnly=true data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
+                            <input type="text" value="20" class="knob second" data-thickness=".3" data-readOnly=true data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
                         </div>
                         <div class="col-md-2" style="padding:0px;">
                             <!-- <h3 class="points">47/50</h3> -->
-                            <h3 class="grbk-top-half">22.5</h3>
-                            <h3>25</h3>
+                            <h3 class="grbk-top-half">84</h3>
+                            <h3>100</h3>
                         </div>
                         <div class="col-md-2" style="padding:0px;">
-                            <h3 class="grbk-top-half">20</h3>
-                            <h3>25</h3>
+                            <h3 class="grbk-top-half">81</h3>
+                            <h3>100</h3>
                         </div>
                     </div>
                     <div class="row">
@@ -236,66 +234,22 @@
                     </div>
                     <div class="row" style="margin-top: 10px;">
                         <div class="col-md-2 grbk-letter">
-                            A
+                            B+
                         </div>
                         <div class="col-md-3">
-                            <input type="text" value="95" class="knob second" data-thickness=".3" data-readOnly=true data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
+                            <input type="text" value="89" class="knob second" data-thickness=".3" data-readOnly=true data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
                         </div>
                         <div class="col-md-3">
                             <input type="text" value="15" class="knob second" data-thickness=".3" data-readOnly=true data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
                         </div>
                         <div class="col-md-2" style="padding:0px;">
                             <!-- <h3 class="points">47/50</h3> -->
-                            <h3 class="grbk-top-half">38</h3>
-                            <h3>40</h3>
+                            <h3 class="grbk-top-half">89</h3>
+                            <h3>100</h3>
                         </div>
                         <div class="col-md-2" style="padding:0px;">
-                            <h3 class="grbk-top-half">35</h3>
-                            <h3>40</h3>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-2">
-                            <h4>Grade</h4>
-                        </div>
-                        <div class="col-md-3">
-                            <h4>% Grade</h4>
-                        </div>
-                        <div class="col-md-3">
-                            <h4>Received Weight</h4>
-                        </div>
-                        <div class="col-md-2">
-                            <h4 class="scorecap">Score</h4>
-                        </div>
-                        <div class="col-md-2">
-                            <h4 class="classavgcap">Class Average</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="grade-block">
-                    <div class="row" align="left">
-                        <div class="col-md-7">
-                            <h3 class="assignmentColor">Cell Regeneration Paper (11/13)</h3>
-                        </div>
-                    </div>
-                    <div class="row" style="margin-top: 10px;">
-                        <div class="col-md-2 grbk-letter">
-                            A-
-                        </div>
-                        <div class="col-md-3">
-                            <input type="text" value="94" class="knob second" data-thickness=".3" data-readOnly=true data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
-                        </div>
-                        <div class="col-md-3">
-                            <input type="text" value="30" class="knob second" data-thickness=".3" data-readOnly=true data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
-                        </div>
-                        <div class="col-md-2" style="padding:0px;">
-                            <!-- <h3 class="points">47/50</h3> -->
-                            <h3 class="grbk-top-half">47</h3>
-                            <h3>50</h3>
-                        </div>
-                        <div class="col-md-2" style="padding:0px;">
-                            <h3 class="grbk-top-half">45</h3>
-                            <h3>50</h3>
+                            <h3 class="grbk-top-half">90</h3>
+                            <h3>100</h3>
                         </div>
                     </div>
                     <div class="row">
@@ -412,17 +366,20 @@
     var totalWeight = 0;
     var studentDataSource = {
         'assignments': [{
-            'assignmentName': 'quiz1',
+            'assignmentName': 'Cell Regeneration Paper',
             'grade': '60',
-            'weight': '3'
+            'weight': '5',
+            'date': '9/13'
         }, {
-            'assignmentName': 'homework1',
+            'assignmentName': 'Midterm 1',
             'grade': '84',
-            'weight': '1'
+            'weight': '20',
+            'date': '9/19'
         }, {
-            'assignmentName': 'mideterm1',
+            'assignmentName': 'Lab Report',
             'grade': '89',
-            'weight': '25'
+            'weight': '15',
+            'date': '9/25'
         }]
     };
 
