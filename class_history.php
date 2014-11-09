@@ -136,7 +136,7 @@ include("header.php");
     </div>
 
     <!-- scripts -->
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/jquery-1.11.1.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery-ui-1.10.2.custom.min.js"></script>
     <!-- knob -->
