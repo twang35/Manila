@@ -34,7 +34,7 @@ include("header.php");
      fjs.parentNode.insertBefore(js, fjs);
    }(document, 'script', 'facebook-jssdk'));
 </script>
-        <!-- <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+        <!-- <fb:login-button scope="pubtdc_profile,email" onlogin="checkLoginState();">
         </fb:login-button>
 
         <div id="status">
@@ -43,78 +43,81 @@ include("header.php");
 
          <div class="row" style="margin-top: 20px;">
             <div class="col-md-10 col-md-offset-1" align="center">
-                <h1 class = "Class-Title">Biology 141 </h1>
+                <h1 class = "Class-Title">Appcology </h1>
             </div>
             <div align="center">
-                <ul>
-                    <li><img src="img/contact-img.png"></li>
-                    <li><img src="img/contact-img.png"></li>
-                    <li><img src="img/contact-img.png"></li>
-                    <li><img src="img/contact-img.png"></li>
-                    <li><img src="img/contact-img.png"></li>
-                    <li><img src="img/contact-img.png"></li>
-                    <li><img src="img/contact-img.png"></li>
-                    <li><img src="img/contact-img.png"></li>
-                    <li><img src="img/contact-img.png"></li>
-                    <li><img src="img/contact-img.png"></li>
-                    <li><img src="img/contact-img.png"></li>
-                    <li><img src="img/contact-img.png"></li>
-                </ul>
+                <table>
+                    <tr>
+                        <td><img src="img/contact-img.png"></td>
+                        <td><img src="img/contact-img.png"></td>
+                        <td><img src="img/contact-img.png"></td>
+                        <td><img src="img/contact-img.png"></td>
+                        <td><img src="img/contact-img.png"></td>
+                        <td><img src="img/contact-img.png"></td>
+                        <td><img src="img/contact-img.png"></td>
+                        <td><img src="img/contact-img.png"></td>
+                        <td><img src="img/contact-img.png"></td>
+                        <td><img src="img/contact-img.png"></td>
+                        <td><img src="img/contact-img.png"></td>
+                        <td><img src="img/contact-img.png"></td>
+                    </tr>
+                </table>
             </div>
             <div class="col-md-10 col-md-offset-1" align="center">
                 <h1 class = "Class-Title">Econ 121</h1>
             </div>
             <div align="center">
-                <ul>
-                    <li><img src="img/contact-img.png"></li>
-                    <li><img src="img/contact-img.png"></li>
-                    <li><img src="img/contact-img.png"></li>
-                    <li><img src="img/contact-img.png"></li>
-                    <li><img src="img/contact-img.png"></li>
-                    <li><img src="img/contact-img.png"></li>
-                    <li><img src="img/contact-img.png"></li>
-                    <li><img src="img/contact-img.png"></li>
-                    <li><img src="img/contact-img.png"></li>
-                    <li><img src="img/contact-img.png"></li>
-                    <li><img src="img/contact-img.png"></li>
-                    <li><img src="img/contact-img.png"></li>
-                </ul>
+                <table>
+                    <tr>
+                        <td><img src="img/contact-img.png"></td>
+                        <td><img src="img/contact-img.png"></td>
+                        <td><img src="img/contact-img.png"></td>
+                        <td><img src="img/contact-img.png"></td>
+                        <td><img src="img/contact-img.png"></td>
+                        <td><img src="img/contact-img.png"></td>
+                        <td><img src="img/contact-img.png"></td>
+                        <td><img src="img/contact-img.png"></td>
+                        <td><img src="img/contact-img.png"></td>
+                        <td><img src="img/contact-img.png"></td>
+                        <td><img src="img/contact-img.png"></td>
+                        <td><img src="img/contact-img.png"></td>
+                    </tr>
+                </table>
             </div>
             <div class="col-md-10 col-md-offset-1" align="center">
                 <h1 class = "Class-Title">English 181</h1>
             </div>
             <div align="center">
-                <ul>
-                    <?php foreach($array as $key=>$value){ ?>
-                              echo   "<li><img src="img/contact-img.png"></li>"
-                                        <?php } ?>
-                    <!-- <li><img src="img/contact-img.png"></li>
-                    <li><img src="img/contact-img.png"></li>
-                    <li><img src="img/contact-img.png"></li>
-                    <li><img src="img/contact-img.png"></li>
-                    <li><img src="img/contact-img.png"></li>
-                    <li><img src="img/contact-img.png"></li>
-                    <li><img src="img/contact-img.png"></li>
-                    <li><img src="img/contact-img.png"></li>
-                    <li><img src="img/contact-img.png"></li>
-                    <li><img src="img/contact-img.png"></li>
-                    <li><img src="img/contact-img.png"></li>
-                    <li><img src="img/contact-img.png"></li> -->
-                </ul>
+                <table>
+                    <tr>
+                        <td><img src="img/contact-img.png"></td>
+                        <td><img src="img/contact-img.png"></td>
+                        <td><img src="img/contact-img.png"></td>
+                        <td><img src="img/contact-img.png"></td>
+                        <td><img src="img/contact-img.png"></td>
+                        <td><img src="img/contact-img.png"></td>
+                        <td><img src="img/contact-img.png"></td>
+                        <td><img src="img/contact-img.png"></td>
+                        <td><img src="img/contact-img.png"></td>
+                        <td><img src="img/contact-img.png"></td>
+                        <td><img src="img/contact-img.png"></td>
+                        <td><img src="img/contact-img.png"></td>
+                    </tr>
+                </table>
             </div>
-            <!-- <div class="col-md-10 col-md-offset-1" align="center">
+            <!-- <div class="col-md-10 col-md-offset-1" atdgn="center">
                 <h1 class = "Class-Title">Biology 141 </h1>
             </div>
-            <div class="col-md-10 col-md-offset-1" align="center">
+            <div class="col-md-10 col-md-offset-1" atdgn="center">
                 <h1 class = "Class-Title">Biology 141 </h1>
             </div>
-            <div class="col-md-10 col-md-offset-1" align="center">
+            <div class="col-md-10 col-md-offset-1" atdgn="center">
                 <h1 class = "Class-Title">Biology 141 </h1>
             </div>
-            <div class="col-md-10 col-md-offset-1" align="center">
+            <div class="col-md-10 col-md-offset-1" atdgn="center">
                 <h1 class = "Class-Title">Biology 141 </h1>
             </div>
-            <div class="col-md-10 col-md-offset-1" align="center">
+            <div class="col-md-10 col-md-offset-1" atdgn="center">
                 <h1 class = "Class-Title">Biology 141 </h1>
             </div> -->
 
