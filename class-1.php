@@ -4,7 +4,7 @@
 
 <!-- Modal -->
 <div class="modal btsp-fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
+  <div class="modal-dialog" style="width:80%" >
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -18,7 +18,7 @@
             <h3>Bell Curve</h3>
         </div>
         <div class="row" align="center" style="margin-bottom: 10px">
-            <img src="img/Bell_Curve.png" height="400" width="450" />
+            <img src="img/Bell_Curve.png" width="100%" />
         </div>
         <div class="row" align="center" style="margin-bottom: 10px">
             <h3>Score Table</h3>
@@ -72,7 +72,7 @@
 
 <!-- Modal -->
 <div class="modal btsp-fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
+  <div class="modal-dialog" style="width:80%" >
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -91,7 +91,7 @@
 
 <!-- Modal -->
 <div class="modal btsp-fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
+  <div class="modal-dialog" style="width:80%" >
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -110,7 +110,7 @@
 
 <!-- Modal -->
 <div class="modal btsp-fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
+  <div class="modal-dialog" style="width:80%" >
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
