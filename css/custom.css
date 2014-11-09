@@ -3,8 +3,30 @@
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
-.grade-block:hover { background-color: #fafafa; }
+.grade-block {
+	margin-bottom: 30px;
+}
+.grade-block:hover { 
+	background-color: #fafafa; 
+}
 
 .grbk-letter {
 	font-size: 60px;
+}
+
+.grbk-top-half {
+	border-bottom: 1px solid #F01717;
+	width: 40%;
+}
+
+.row.grdbk {
+	margin-top: 20px;
+	padding-top: 20px;
+	background-color:#ffffff;
+	border-top: rgb(203, 202, 202);
+	border-bottom: rgb(203, 202, 202);
+    border-top-style: solid; 
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
 }

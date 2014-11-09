@@ -56,16 +56,6 @@ h3.Course-Num {
 	margin-bottom: 20px; 
 	text-align: center;
 }
-.row.grdbk {
-	margin-top:70px; 
-	background-color:#ffffff;
-	border-top: rgb(203, 202, 202);
-	border-bottom: rgb(203, 202, 202);
-    border-top-style: solid; 
-    border-top-width: 1px;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-}
 
 .col-md-4-classBar {
 	padding: 15px; 
