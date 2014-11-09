@@ -22,6 +22,11 @@
   color:#505050;
 }
 
+.duedate{
+  font-size: 14px;
+  color: #606060;
+}
+
 body { 
   font-weight: 300;
   background-color: #f7f7f7;

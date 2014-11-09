@@ -8,10 +8,15 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h4 class="modal-title" id="myModalLabel">Cell Regeneration Paper</h4>
+        <h4 class="modal-title" id="myModalLabel">Cell Regeneration Paper<br><span class="duedate">09/13</span></h4>
       </div>
       <div class="modal-body">
-        ...
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -27,7 +32,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h4 class="modal-title" id="myModalLabel">Midterm 1</h4>
+        <h4 class="modal-title" id="myModalLabel">Midterm 1<br><span class="duedate">09/19</span></h4>
       </div>
       <div class="modal-body">
         ...
@@ -46,7 +51,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h4 class="modal-title" id="myModalLabel">Lab Report</h4>
+        <h4 class="modal-title" id="myModalLabel">Lab Report<br><span class="duedate">09/25</span></h4>
       </div>
       <div class="modal-body">
         ...
@@ -65,7 +70,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h4 class="modal-title" id="myModalLabel">Cell Regeneration Paper</h4>
+        <h4 class="modal-title" id="myModalLabel">Cell Regeneration Paper<br><span class="duedate">11/13</span></h4>
       </div>
       <div class="modal-body">
         ...
