@@ -161,10 +161,10 @@
             <h1>Gradebook</h1>
             <hr>
             <div class="div-scroll">
-                <div class="grade-block">
+                <div class="grade-block" data-toggle="modal" data-target="#myModal">
                     <div class="row" align="left">
                         <div class="col-md-7">
-                            <h3 class="assignmentColor" data-toggle="modal" data-target="#myModal">Cell Regeneration Paper (9/13)</h3>
+                            <h3 class="assignmentColor">Cell Regeneration Paper (9/13)</h3>
                         </div>
                     </div>
                     <div class="row" style="margin-top: 10px;">
@@ -203,7 +203,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="grade-block">
+                <div class="grade-block" data-toggle="modal" data-target="#myModal">
                     <div class="row" align="left">
                         <div class="col-md-7">
                             <h3 class="assignmentColor" data-toggle="modal" data-target="#myModal">Midterm 1 (9/19)</h3>
@@ -247,7 +247,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="grade-block">
+                <div class="grade-block" data-toggle="modal" data-target="#myModal">
                     <div class="row" align="left">
                         <div class="col-md-7">
                             <h3 class="assignmentColor" data-toggle="modal" data-target="#myModal">Lab Report (9/25)</h3>
@@ -291,7 +291,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="grade-block">
+                <div class="grade-block" data-toggle="modal" data-target="#myModal">
                     <div class="row" align="left">
                         <div class="col-md-7">
                             <h3 class="assignmentColor" data-toggle="modal" data-target="#myModal">Cell Regeneration Paper (11/13)</h3>
