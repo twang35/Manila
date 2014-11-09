@@ -5,8 +5,12 @@
 <div class="content">
 
     <div class="row" style="margin-top: 50px;">
-        <div class="col-md-4 " align="center">
+        <div class="col-md-6 " style="padding-left:100px">
             <h1>Benn Konsynski</h1>
+        </div>
+        <div class="col-md-6 " >
+            <div class="col-md-12"><h2>Courses</h2></div>
+            
         </div>
     </div>
 
@@ -18,21 +22,18 @@
         </div>
 
         <div class="col-md-6">
-            <div class="col-md-12 center-statsUp">Courses</div>
-            <div class="col-md-12 center-statsBo">
+            <div class="col-md-12 ">
                 <h4>Appcology</h4>
-                <h4>Course 2</h4>
-                <h4>Course 3</h4>
+                <h4>Leveraging Media</h4>
+                <h4>Managing the Information Resource</h4>
+                <h4>Electronic Commerce: Business Sci Fi</h4>
             </div>
-        </div>
-
-    </div>
-    <div class="row" style="margin-top: 40px; length:100px;">
-
-        <div class="col-md-12">
-            <div align="center">
-                <h4>Assignment Type</h4>
-                <div id="hero-donut-1" style="height: 248px;"></div>
+            <div class="col-md-5">
+	            <div align="center">
+	            <br>
+	                <h2>Assignment Type</h2>
+	                <div id="hero-donut-1" style="height: 248px;"></div>
+	            </div>
             </div>
         </div>
     </div>
@@ -55,7 +56,7 @@
 <script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
 <script src="js/morris.min.js"></script>
 
-<script type="text/javascript">
+<script type="text/javascript" >
     Morris.Donut({
         element: 'hero-donut-1',
         data: [{
