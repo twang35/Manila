@@ -313,7 +313,7 @@
                     </div>
                 </div>
                 <div>
-                    <img id='bellcurve' src="img/Bell_Curve.png" style="width: 80%; align:center; height:350px">
+                    <img id='bellcurve' src="img/Bell_Curve.png" style="width: 70%; align:center; height:375px">
                 </div>
                 <div>
                     <div class="row" align="center">
