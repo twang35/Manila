@@ -186,7 +186,7 @@
                     <!-- <span>Home</span> -->
                 <!-- </a> -->
             <!-- </li>             -->
-        <?php if($Title == "Appcology" || $Title == "Econ 121" || $Title == "Eng 181"):  ?>
+        <?php if($Title == "Appcology" || $Title == "Econ 121" || $Title == "Eng 181" || $Title == "Class History" || $Title == "Instructors" || $Title == "TooDoo"):  ?>
             <li class="active">
                 <div class="pointer">
                     <div class="arrow"></div>

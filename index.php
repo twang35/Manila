@@ -20,7 +20,7 @@ include("header.php");
                 <div class="grade-block">
 	            <div class="row">
 	                <div class="col-md-4" align="center" style="margin-top:10px;">
-	                    <a href="/class-1.php"><span class="classes" style="font-size: 24px">Biology 141</span></a>
+	                    <a href="/class-1.php"><span class="classes" style="font-size: 24px">Appcology 355</span></a>
 	                </div>	
 	            </div>
 	            <div class="row">
