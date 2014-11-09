@@ -42,32 +42,50 @@ include("header.php");
         <!-- settings changer -->
 
          <div class="row" style="margin-top: 20px;">
-            <div class="col-md-10 col-md-offset-1" align="center">
-                <h1 class = "Class-Title">Appcology </h1>
+            <div class="col-md-11 col-md-offset-1" align="center">
+                <div class="col-md-9">
+                    <h1 class = "Class-Title" align="left">Appcology </h1>
+                </div>
+                <div class="col-md-2" style="padding-top: 20px">
+                    <table class="friends_pics table-striped" align="right">
+                        <tr>
+                            <td><img src="img/old-man-1.jpeg" width="100%"></td>
+                            <td><img src="img/girl-face-1.jpeg" width="100%"></td>
+                        </tr>
+                    </table>
+                </div>
             </div>
-            <div align="center">
-                <table class="friends_pics">
-                    <tr>
-                        <td><img src="img/contact-img.png"></td>
-                        <td><img src="img/contact-img.png"></td>
-                        <td><img src="img/contact-img.png"></td>
-                        <td><img src="img/contact-img.png"></td>
-                        <td><img src="img/contact-img.png"></td>
-                        <td><img src="img/contact-img.png"></td>
-                        <td><img src="img/contact-img.png"></td>
-                        <td><img src="img/contact-img.png"></td>
-                        <td><img src="img/contact-img.png"></td>
-                        <td><img src="img/contact-img.png"></td>
-                        <td><img src="img/contact-img.png"></td>
-                        <td><img src="img/contact-img.png"></td>
-                    </tr>
-                </table>
+            <div class="col-md-11 col-md-offset-1" align="center">
+                <div class="col-md-9">
+                    <h1 class = "Class-Title" align="left">Econ 121 </h1>
+                </div>
+                <div class="col-md-2" style="padding-top: 20px">
+                    <table class="friends_pics table-striped" align="right">
+                        <tr>
+                            <td><img src="img/young-guy-1.jpeg" width="100%"></td>
+                            <td><img src="img/girl-face-2.jpeg" width="100%"></td>
+                        </tr>
+                    </table>
+                </div>
             </div>
-            <div class="col-md-10 col-md-offset-1" align="center">
+            <div class="col-md-11 col-md-offset-1" align="center">
+                <div class="col-md-9">
+                    <h1 class = "Class-Title" align="left">English 181 </h1>
+                </div>
+                <div class="col-md-2" style="padding-top: 20px">
+                    <table class="friends_pics table-striped" align="right">
+                        <tr>
+                            <td><img src="img/contact-img.png"></td>
+                            <td><img src="img/young-guy-2.jpeg" width="100%"></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <!-- <div class="col-md-10 col-md-offset-1" align="center">
                 <h1 class = "Class-Title">Econ 121</h1>
             </div>
             <div align="center">
-                <table class="friends_pics">
+                <table class="friends_pics table-striped">
                     <tr>
                         <td><img src="img/contact-img.png"></td>
                         <td><img src="img/contact-img.png"></td>
@@ -88,7 +106,7 @@ include("header.php");
                 <h1 class = "Class-Title">English 181</h1>
             </div>
             <div align="center">
-                <table class="friends_pics">
+                <table class="friends_pics table-striped">
                     <tr>
                         <td><img src="img/contact-img.png"></td>
                         <td><img src="img/contact-img.png"></td>
@@ -104,7 +122,7 @@ include("header.php");
                         <td><img src="img/contact-img.png"></td>
                     </tr>
                 </table>
-            </div>
+            </div> -->
             <!-- <div class="col-md-10 col-md-offset-1" atdgn="center">
                 <h1 class = "Class-Title">Biology 141 </h1>
             </div>
