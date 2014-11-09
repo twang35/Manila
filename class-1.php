@@ -50,13 +50,13 @@
     </div>
 
     <div class="row" style="margin-top: 20px;">
-        <div class="col-md-6">
-            <div id="current-grade" class="col-md-12 center-statsUp">93%</div>
+        <div class="col-md-offset-1 col-md-5">
+            <div id="current-grade" class="col-md-12 center-statsUp"></div>
             <div class="col-md-12 center-statsBo">
                 <h4>Current Grade</h4>
             </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-5">
             <div id ="letter-grade"class="col-md-12 center-statsUp"></div>
             <div class="col-md-12 center-statsBo">
                 <h4>Letter Grade</h4>
@@ -84,12 +84,12 @@
                     <div class="row" align="center">
                         <div class="row" style="width: 100%;">
                             <div class="col-md-6 chart">
-                                <h5>Assignment Type</h5>
                                 <div id="hero-donut-1" style="height: 248px;"></div>
+                                <h4>Assignment Type</h4>
                             </div>
                             <div class="col-md-6 chart">
-                                <h5>Individual Assignments</h5>
                                 <div id="hero-donut-2" style="height: 248px;"></div>
+                                <h4>Individual Assignments</h4>
                             </div>
                         </div>
                     </div>
@@ -97,7 +97,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <h4 class="title pull-left">
-                                jQuery Flot <small>Monthly growth</small>                        
+                                Course Progress                        
                             </h4>
                         <div class="btn-group pull-right">
                             <button class="glow left">DAY</button>
@@ -106,7 +106,7 @@
                         </div>
                     </div>
                     <div class="span12">
-                        <div id="statsChart"></div>
+                        <div id="course-progress"></div>
                     </div>
                 </div>
                 <div class="row" style="margin-top: 20px;">
@@ -137,7 +137,7 @@
             </div> -->
 
         <div class="row line" style="padding-top:70px" align="center">
-            <div class="col-md-4">
+            <div class="col-md-offset-1 col-md-5">
                 <div class="col-md-12">
                     <input id='knob1' type="text" class="knob second mid" value=93 data-inputColor="#808080" data-fgColor="#DBA901" data-bgColor="#F5DA81" data-width="140" data-heightp="140" text-width="140">
                 </div>
@@ -145,9 +145,7 @@
                     <h3>Goal Grade</h3>
                 </div>
             </div>
-            <div class="col-md-4">
-            </div>
-            <div class="col-md-4">
+            <div class="col-md-5">
                 <div class="col-md-12">
                     <input id='knob3' type="text" class="knob second mid" data-readOnly=true data-inputColor="#333" data-fgColor="#DBA901" data-bgColor="#F5DA81" data-width="140">
                 </div>
@@ -617,6 +615,10 @@
         [10, 75],
         [11, 57],
         [12, 59]
+        // [13, 65],
+        // [14, 75],
+        // [15, 57],
+        // [16, 59]
     ];
     var visitors = [
         [1, 25],
@@ -631,9 +633,13 @@
         [10, 50],
         [11, 47],
         [12, 39]
+        // [13, 43],
+        // [14, 50],
+        // [15, 47],
+        // [16, 39]
     ];
 
-    var plot = $.plot($("#statsChart"), [{
+    var plot = $.plot($("#course-progress"), [{
         data: visits,
         label: "Signups"
     }, {
@@ -671,7 +677,7 @@
             // show: false
             labelBoxBorderColor: "#fff"
         },
-        colors: ["#DBA901", "#cc0033"],
+        colors: ["#DBA901", "#000000"],
         xaxis: {
             ticks: [
                 [1, "JAN"],
@@ -686,6 +692,10 @@
                 [10, "OCT"],
                 [11, "NOV"],
                 [12, "DEC"]
+                // [13, "DEC"],
+                // [14, "OCT"],
+                // [15, "NOV"],
+                // [16, "DEC"]
             ],
             font: {
                 size: 12,
@@ -719,7 +729,7 @@
     }
 
     var previousPoint = null;
-    $("#statsChart").bind("plothover", function(event, pos, item) {
+    $("#course-progress").bind("plothover", function(event, pos, item) {
         if (item) {
             if (previousPoint != item.dataIndex) {
                 previousPoint = item.dataIndex;
