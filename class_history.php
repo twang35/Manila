@@ -86,7 +86,7 @@ include("header.php");
             <div align="center">
                 <ul>
                     <?php foreach($array as $key=>$value){ ?>
-                                <li><img src="img/contact-img.png"></li>
+                              echo   "<li><img src="img/contact-img.png"></li>"
                                         <?php } ?>
                     <!-- <li><img src="img/contact-img.png"></li>
                     <li><img src="img/contact-img.png"></li>

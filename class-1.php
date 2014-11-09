@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<?php session_start(); $_SESSION[ 'Title']="Bio 141" ; include( "header.php"); ?>
+<?php session_start(); $_SESSION[ 'Title']="Appcology" ; include( "header.php"); ?>
 
 <!-- Modal -->
 <div class="modal btsp-fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
