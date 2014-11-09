@@ -3,12 +3,12 @@
 <?php session_start(); $_SESSION[ 'Title']="Bio 141" ; include( "header.php"); ?>
 
 <!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+        <h4 class="modal-title" id="myModalLabel">Blah 1</h4>
       </div>
       <div class="modal-body">
         ...
@@ -21,6 +21,62 @@
   </div>
 </div>
 
+<!-- Modal -->
+<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">Blah 2</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">Blah 3</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">Blah 4</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 <!-- main container -->
@@ -159,7 +215,7 @@
             <h1>Gradebook</h1>
             <hr>
             <div class="div-scroll">
-                <div class="grade-block" data-toggle="modal" data-target="#myModal">
+                <div class="grade-block" data-toggle="modal" data-target="#myModal1">
                     <div class="row" align="left">
                         <div class="col-md-7">
                             <h3 class="assignmentColor">Cell Regeneration Paper (9/13)</h3>
@@ -201,10 +257,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="grade-block" data-toggle="modal" data-target="#myModal">
+                <div class="grade-block" data-toggle="modal" data-target="#myModal2">
                     <div class="row" align="left">
                         <div class="col-md-7">
-                            <h3 class="assignmentColor" data-toggle="modal" data-target="#myModal">Midterm 1 (9/19)</h3>
+                            <h3 class="assignmentColor">Midterm 1 (9/19)</h3>
                         </div>
                     </div>
                     <div class="row" style="margin-top: 10px;">
@@ -245,10 +301,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="grade-block" data-toggle="modal" data-target="#myModal">
+                <div class="grade-block" data-toggle="modal" data-target="#myModal3">
                     <div class="row" align="left">
                         <div class="col-md-7">
-                            <h3 class="assignmentColor" data-toggle="modal" data-target="#myModal">Lab Report (9/25)</h3>
+                            <h3 class="assignmentColor">Lab Report (9/25)</h3>
                         </div>
                     </div>
                     <div class="row" style="margin-top: 10px;">
@@ -289,10 +345,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="grade-block" data-toggle="modal" data-target="#myModal">
+                <div class="grade-block" data-toggle="modal" data-target="#myModal4">
                     <div class="row" align="left">
                         <div class="col-md-7">
-                            <h3 class="assignmentColor" data-toggle="modal" data-target="#myModal">Cell Regeneration Paper (11/13)</h3>
+                            <h3 class="assignmentColor">Cell Regeneration Paper (11/13)</h3>
                         </div>
                     </div>
                     <div class="row" style="margin-top: 10px;">
