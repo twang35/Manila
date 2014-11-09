@@ -269,6 +269,8 @@
                     <span>TooDoo</span>
                 </a>
             </li>
+
+
             <?php if($Title == "Profiles"):  ?>
             <li class="active">
                 <div class="pointer">
@@ -283,6 +285,8 @@
                     <span>Profiles</span>
                 </a>
             </li>
+
+
         <!-- <?php if($Title == "Profile"):  ?> -->
             <!-- <li class="active"> -->
                 <!-- <div class="pointer"> -->

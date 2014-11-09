@@ -2,7 +2,7 @@
 <html>
 <?php 
 session_start(); 
-$_SESSION[ 'Title']="Instructors" ; 
+$_SESSION[ 'Title']="Profiles" ; 
 include( "header.php"); 
 ?>
 
