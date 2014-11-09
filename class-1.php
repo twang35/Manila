@@ -340,7 +340,8 @@
                     </div>
                 </div>
                 <div class="row" style="margin-top: 20px;">
-                    <div class="col-md-6">
+                    <div id="chart"></div>
+                    <!-- <div class="col-md-6">
                         <div id="bestPossibleGrade" class="col-md-12 center-statsUp"></div>
                         <div class="col-md-12 center-statsBo">
                             <h4>Best Possible Grade</h4>
@@ -351,7 +352,7 @@
                         <div class="col-md-12 center-statsBo">
                             <h4>Worst Possible Grade</h4>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -417,6 +418,9 @@
     <script type="text/javascript" src="slick/js/scripts.js"></script>
     <script src="Highcharts-4/js/highcharts.js"></script>
     <script src="Highcharts-4/js/modules/exporting.js"></script>
+
+    <!-- kendo -->
+    <script type="text/javascript" src="js/kendo.all.min.js"></script>
 
 
     <!-- build the charts -->
@@ -928,6 +932,47 @@
             hideHover: 'auto',
             barColors: ["#DBA901"]
         });
+
+        function createChart() {
+            $("#chart").kendoChart({
+                // title: {
+                //     text: "Site Visitors Stats \n /thousands/"
+                // },
+                legend: {
+                    visible: false
+                },
+                seriesDefaults: {
+                    type: "bar"
+                },
+                series: [{
+                    name: "Percent",
+                    data: [93, 33],
+                    color: "#DBA901"
+                }],
+                valueAxis: {
+                    max: 100,
+                    line: {
+                        visible: false
+                    },
+                    minorGridLines: {
+                        visible: true
+                    }
+                },
+                categoryAxis: {
+                    categories: ["Best Possible", "Worst Possible"],
+                    majorGridLines: {
+                        visible: false
+                    }
+                },
+                tooltip: {
+                    visible: true,
+                    template: "#= value #%"
+                }
+            });
+        }
+
+        $(document).ready(createChart);
+        $(document).bind("kendo:skinChange", createChart);
     </script>
     </body>
 
