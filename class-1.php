@@ -115,15 +115,15 @@ include("header.php");
 
             <div class="row line" style="padding-top:70px" align="center">
                 <div class="col-md-4">
-                    <div class="col-md-12"><input id='knob1' type="text"  class="knob second mid" value=93 data-thickness=".2" data-inputColor="#333" data-fgColor="#DBA901" data-bgColor="#F5DA81" data-width="140" text-width="50"></div>
+                    <div class="col-md-12"><input id='knob1' type="text"  class="knob second mid" value=93 data-inputColor="#808080" data-fgColor="#DBA901" data-bgColor="#F5DA81" data-width="140" data-heightp="140" text-width="140"></div>
                     <div class="col-md-12" style="margin-bottom: 20px;"><h3>Goal Grade</h3></div> 
                 </div>
                 <div class="col-md-4">
-                    <div class="col-md-12"><input id='knob2' type="text" class="knob second mid" data-readOnly=true data-thickness=".3" data-inputColor="#333" data-fgColor="#DBA901" data-bgColor="#F5DA81" data-width="140"></div>
+                    <div class="col-md-12"><input id='knob2' type="text" class="knob second mid" data-readOnly=true data-inputColor="#333" data-fgColor="#DBA901" data-bgColor="#F5DA81" data-width="140"></div>
                     <div class="col-md-12" style="margin-bottom: 20px;"><h3>Current Average</h3></div>
                 </div>
                 <div class="col-md-4">
-                    <div class="col-md-12"><input id='knob3' type="text" class="knob second mid" data-thickness=".3" data-readOnly=true  data-inputColor="#333" data-fgColor="#DBA901" data-bgColor="#F5DA81" data-width="140"></div>
+                    <div class="col-md-12"><input id='knob3' type="text" class="knob second mid" data-readOnly=true  data-inputColor="#333" data-fgColor="#DBA901" data-bgColor="#F5DA81" data-width="140"></div>
                     <div class="col-md-12" style="margin-bottom: 20px;"><h3>Average Needed</h3></div>
                 </div>
             </div>

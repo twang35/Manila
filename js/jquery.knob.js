@@ -91,14 +91,15 @@
                     cursor : (this.$.data('cursor') === true && 30)
                                 || this.$.data('cursor')
                                 || 0,
-                    thickness : this.$.data('thickness') || 0.35,
+                    thickness : this.$.data('thickness') || 0.2,
                     lineCap : this.$.data('linecap') || 'butt',
                     width : this.$.data('width') || 200,
                     height : this.$.data('height') || 200,
                     displayInput : this.$.data('displayinput') == null || this.$.data('displayinput'),
                     displayPrevious : this.$.data('displayprevious'),
                     fgColor : this.$.data('fgcolor') || '#87CEEB',
-                    inputColor: this.$.data('inputcolor') || this.$.data('fgcolor') || '#87CEEB',
+                    inputColor: '#808080',
+                    //inputColor: this.$.data('inputcolor') || this.$.data('fgcolor') || '#808080',
                     inline : false,
                     step : this.$.data('step') || 1,
 
@@ -575,11 +576,11 @@
                         ,'height' : ((this.o.width / 3) >> 0) + 'px'
                         ,'position' : 'absolute'
                         ,'vertical-align' : 'middle'
-                        ,'margin-top' : ((this.o.width / 3) >> 0) + 'px'
+                        ,'margin-top' : ((this.o.width / 3 - 2) >> 0) + 'px'
                         ,'margin-left' : '-' + ((this.o.width * 3 / 4 + 2) >> 0) + 'px'
                         ,'border' : 0
                         ,'background' : 'none'
-                        ,'font' : 'bold ' + ((this.o.width / s) >> 0) + 'px Arial'
+                        ,'font' : ((this.o.width / s *1.6) >> 0) + 'px HelveticaNeue-Thin' || '45px HelveticaNeue-Thin'
                         ,'text-align' : 'center'
                         ,'color' : this.o.inputColor || this.o.fgColor
                         ,'padding' : '0px'
