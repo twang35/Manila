@@ -227,7 +227,7 @@
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="instructors.php">
                     <i class="icon-star"></i>
                     <span>Instructors</span>
                 </a>
