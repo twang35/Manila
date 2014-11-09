@@ -2,6 +2,27 @@
 <html>
 <?php session_start(); $_SESSION[ 'Title']="Bio 141" ; include( "header.php"); ?>
 
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
 <!-- main container -->
 <div class="content">
 
@@ -143,7 +164,7 @@
                 <div class="grade-block">
                     <div class="row" align="left">
                         <div class="col-md-7">
-                            <h3 class="assignmentColor">Cell Regeneration Paper (9/13)</h3>
+                            <h3 class="assignmentColor" data-toggle="modal" data-target="#myModal">Cell Regeneration Paper (9/13)</h3>
                         </div>
                     </div>
                     <div class="row" style="margin-top: 10px;">
@@ -185,7 +206,7 @@
                 <div class="grade-block">
                     <div class="row" align="left">
                         <div class="col-md-7">
-                            <h3 class="assignmentColor">Midterm 1 (9/19)</h3>
+                            <h3 class="assignmentColor" data-toggle="modal" data-target="#myModal">Midterm 1 (9/19)</h3>
                         </div>
                     </div>
                     <div class="row" style="margin-top: 10px;">
@@ -229,7 +250,7 @@
                 <div class="grade-block">
                     <div class="row" align="left">
                         <div class="col-md-7">
-                            <h3 class="assignmentColor">Lab Report (9/25)</h3>
+                            <h3 class="assignmentColor" data-toggle="modal" data-target="#myModal">Lab Report (9/25)</h3>
                         </div>
                     </div>
                     <div class="row" style="margin-top: 10px;">
@@ -244,6 +265,52 @@
                         </div>
                         <div class="col-md-2" style="padding:0px;">
                             <!-- <h3 class="points">47/50</h3> -->
+                            <h3 class="grbk-top-half">38</h3>
+                            <h3>40</h3>
+                        </div>
+                        <div class="col-md-2" style="padding:0px;">
+                            <h3 class="grbk-top-half">35</h3>
+                            <h3>40</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <h4>Grade</h4>
+                        </div>
+                        <div class="col-md-3">
+                            <h4>% Grade</h4>
+                        </div>
+                        <div class="col-md-3">
+                            <h4>Received Weight</h4>
+                        </div>
+                        <div class="col-md-2">
+                            <h4 class="scorecap">Score</h4>
+                        </div>
+                        <div class="col-md-2">
+                            <h4 class="classavgcap">Class Average</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="grade-block">
+                    <div class="row" align="left">
+                        <div class="col-md-7">
+                            <h3 class="assignmentColor" data-toggle="modal" data-target="#myModal">Cell Regeneration Paper (11/13)</h3>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-top: 10px;">
+                        <div class="col-md-2 grbk-letter">
+                            A-
+                        </div>
+                        <div class="col-md-3">
+                            <input type="text" value="94" class="knob second" data-thickness=".3" data-readOnly=true data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
+                        </div>
+                        <div class="col-md-3">
+                            <input type="text" value="30" class="knob second" data-thickness=".3" data-readOnly=true data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
+                        </div>
+                        <div class="col-md-2" style="padding:0px;">
+                            <!-- <h3 class="points">47/50</h3> -->
+                            <h3 class="grbk-top-half">47</h3>
+                            <h3>50</h3>
                             <h3 class="grbk-top-half">89</h3>
                             <h3>100</h3>
                         </div>
