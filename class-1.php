@@ -11,6 +11,9 @@
         <h4 class="modal-title" id="myModalLabel">Cell Regeneration Paper<br><span class="duedate">09/13</span></h4>
       </div>
       <div class="modal-body">
+        <div class="row" align="center" style="margin-bottom: 10px">
+            <img src="img/sketchygraph.png" height="350" width="450" />
+        </div>
         <br>
         <br>
         <br>
