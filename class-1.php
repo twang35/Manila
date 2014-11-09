@@ -14,12 +14,14 @@
         <div class="row" align="center" style="margin-bottom: 10px">
             <img src="img/sketchygraph.png" height="350" width="450" />
         </div>
+        <hr>
         <div class="row" align="center" style="margin-bottom: 10px">
             <h3>Bell Curve</h3>
         </div>
         <div class="row" align="center" style="margin-bottom: 10px">
             <img src="img/Bell_Curve.png" height="400" width="450" />
         </div>
+        <hr>
         <div class="row" align="center" style="margin-bottom: 10px">
             <h3>Score Table</h3>
         </div>
