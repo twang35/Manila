@@ -41,46 +41,58 @@ include("header.php");
         </div> -->
         <!-- settings changer -->
 
-         <div class="row" style="margin-top: 20px;">
-            <div class="col-md-11 col-md-offset-1" align="center">
-                <div class="col-md-9">
-                    <h1 class = "Class-Title" align="left">Appcology </h1>
-                </div>
-                <div class="col-md-2" style="padding-top: 20px">
-                    <table class="friends_pics table-striped" align="right">
-                        <tr>
-                            <td><img src="img/old-man-1.jpeg" width="100%"></td>
-                            <td><img src="img/girl-face-1.jpeg" width="100%"></td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-            <div class="col-md-11 col-md-offset-1" align="center">
-                <div class="col-md-9">
-                    <h1 class = "Class-Title" align="left">Econ 121 </h1>
-                </div>
-                <div class="col-md-2" style="padding-top: 20px">
-                    <table class="friends_pics table-striped" align="right">
-                        <tr>
-                            <td><img src="img/young-guy-1.jpeg" width="100%"></td>
-                            <td><img src="img/girl-face-2.jpeg" width="100%"></td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-            <div class="col-md-11 col-md-offset-1" align="center">
-                <div class="col-md-9">
-                    <h1 class = "Class-Title" align="left">English 181 </h1>
-                </div>
-                <div class="col-md-2" style="padding-top: 20px">
-                    <table class="friends_pics table-striped" align="right">
-                        <tr>
-                            <td><img src="img/contact-img.png"></td>
-                            <td><img src="img/young-guy-2.jpeg" width="100%"></td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
+         <table class="row table-striped" style="margin-top: 20px;">
+            <tr>
+                <!-- <div class="col-md-11 col-md-offset-1" align="center" style="padding-bottom: 10px"> -->
+                    <td class="col-md-9">
+                        <h1 class = "Class-Title" align="left">Appcology </h1>
+                    </td>
+                    <td class="col-md-2" style="padding-top: 5px">
+                        <table class="friends_pics " align="right">
+                            <tr>
+                                <td><img src="img/old-man-1.jpeg" width="100%"></td>
+                                <td><img src="img/girl-face-1.jpeg" width="100%"></td>
+                            </tr>
+                        </table>
+                    </td>
+                <!-- </div> -->
+            </tr>
+
+            <hr />
+            
+            <tr>
+                <!-- <div class="col-md-11 col-md-offset-1" align="center" style="padding-bottom: 10px"> -->
+                    <td class="col-md-9">
+                        <h1 class = "Class-Title" align="left">Econ 121 </h1>
+                    </td>
+                    <td class="col-md-2" style="padding-top: 5px">
+                        <table class="friends_pics " align="right">
+                            <tr>
+                                <td><img src="img/young-guy-1.jpeg" width="100%"></td>
+                                <td><img src="img/girl-face-2.jpeg" width="100%"></td>
+                            </tr>
+                        </table>
+                    </td>
+                <!-- </div> -->
+            </tr>
+
+            <hr />
+
+            <tr>
+                <!-- <div class="col-md-11 col-md-offset-1" align="center" style="padding-bottom: 10px"> -->
+                    <td class="col-md-9">
+                        <h1 class = "Class-Title" align="left">English 181 </h1>
+                    </td>
+                    <td class="col-md-2" style="padding-top: 5px">
+                        <table class="friends_pics " align="right">
+                            <tr>
+                                <td><img src="img/contact-img.png"></td>
+                                <td><img src="img/young-guy-2.jpeg" width="100%"></td>
+                            </tr>
+                        </table>
+                    </td>
+                <!-- </div> -->
+            </tr>
             <!-- <div class="col-md-10 col-md-offset-1" align="center">
                 <h1 class = "Class-Title">Econ 121</h1>
             </div>
@@ -139,7 +151,7 @@ include("header.php");
                 <h1 class = "Class-Title">Biology 141 </h1>
             </div> -->
 
-        </div>
+        </table>
         <div class="skins-nav">
             <a href="#" class="skin first_nav selected">
                 <span class="icon"></span><span class="text">Default skin</span>
