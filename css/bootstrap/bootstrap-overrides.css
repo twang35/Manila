@@ -19,14 +19,14 @@ body{
 	color: #808080;
 }
 
-ul {
+/*ul {
   white-space: nowrap;
 }
 
 ul, li {
   list-style: none;
   display: inline;
-}
+}*/
 
 /* COMPONENTS */
 .col-md-3-classBar {
