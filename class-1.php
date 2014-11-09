@@ -123,10 +123,6 @@
                 <h4>Letter Grade</h4>
             </div>
         </div>
-        <!-- <div class="col-md-4">
-                <div class="col-md-12"><h1>2.5</h1></div>
-                <div class="col-md-12" style="margin-bottom: 20px;"><h3>Z-Score</h3></div>
-            </div> -->
     </div>
 
     <div class="row col-md-offset-1 col-md-10 line" style="padding-top: 30px;">
@@ -137,7 +133,6 @@
                         <div id="class-breakdown" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
                     </div>
                 </div>
-                <!-- jQuery flot chart -->
                 <div>
                     <img id='bellcurve' src="img/Bell_Curve.png" style="width: 80%; align:center">    
                 </div>
@@ -187,16 +182,6 @@
             </div>
         </div>
 
-
-        <!--  <div class="row" style="padding-top:50px" align="center">
-                <div class="row" style="width: 100%;">    
-                            <div class="col-md-12 chart">
-                                <h5>Points Recieved of Points Available</h5>
-                                <div id="assignment" style="width: 600px;"></div>
-                            </div>
-                        </div>
-            </div> -->
-
         <div class="row line" style="padding-top:70px" align="center">
             <div class="col-md-offset-1 col-md-5">
                 <div class="col-md-12">
@@ -232,7 +217,7 @@
                             <input type="text" value="60" class="knob second" data-readOnly=true data-thickness=".3" data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
                         </div>
                         <div class="col-md-3">
-                            <input type="text" value="5" class="knob second" data-thickness=".3" data-readOnly=true data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
+                            <h2 class="middle">.05</h2>
                         </div>
                         <div class="col-md-2" style="padding:0px;">
                             <!-- <h3 class="points">47/50</h3> -->
@@ -350,32 +335,29 @@
                         </div>
                     </div>
                 </div>
-                <div class="grade-block" data-toggle="modal" data-target="#myModal4">
+                <div >
                     <div class="row" align="left">
                         <div class="col-md-7">
-                            <h3 class="assignmentColor">Cell Regeneration Paper (11/13)</h3>
+                            <h3 class="assignmentColor">Final Exam (12/13)</h3>
                         </div>
                     </div>
                     <div class="row" style="margin-top: 10px;">
                         <div class="col-md-2 grbk-letter">
-                            A-
+                            - -
                         </div>
                         <div class="col-md-3">
-                            <input type="text" value="94" class="knob second" data-thickness=".3" data-readOnly=true data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
+                            <input type="text" value="96" class="knob second" data-thickness=".3" data-readOnly=true data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
                         </div>
                         <div class="col-md-3">
                             <input type="text" value="30" class="knob second" data-thickness=".3" data-readOnly=true data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
                         </div>
                         <div class="col-md-2" style="padding:0px;">
                             <!-- <h3 class="points">47/50</h3> -->
-                            <h3 class="grbk-top-half">47</h3>
+                            <h3 class="grbk-top-half">48</h3>
                             <h3>50</h3>
-                            <h3 class="grbk-top-half">89</h3>
-                            <h3>100</h3>
                         </div>
                         <div class="col-md-2" style="padding:0px;">
-                            <h3 class="grbk-top-half">90</h3>
-                            <h3>100</h3>
+                            <h3>10</h3>
                         </div>
                     </div>
                     <div class="row">
@@ -383,16 +365,16 @@
                             <h4>Grade</h4>
                         </div>
                         <div class="col-md-3">
-                            <h4>% Grade</h4>
+                            <h4>Needed For Goal</h4>
                         </div>
                         <div class="col-md-3">
-                            <h4>Received Weight</h4>
+                            <h4>% of Grade</h4>
                         </div>
                         <div class="col-md-2">
-                            <h4 class="scorecap">Score</h4>
+                            <h4 class="scorecap">Score Needed for Goal</h4>
                         </div>
                         <div class="col-md-2">
-                            <h4 class="classavgcap">Class Average</h4>
+                            <h4 class="classavgcap">Days Until Due</h4>
                         </div>
                     </div>
                 </div>
