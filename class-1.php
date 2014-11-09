@@ -390,9 +390,11 @@ include("header.php");
 		    $('#knob2')
 		        .val(Math.round(averageGrade)).trigger('change');
 		    var neededAverage = (document.getElementById("knob1").value - (document.getElementById("knob2").value * (totalWeight / 100))) / (1 - (totalWeight / 100));
-		    document.getElementById("knob3").value = neededAverage;
+		    if(neededAverage >-1){
+            document.getElementById("knob3").value = neededAverage;
             $('#knob3')
                 .val(neededAverage).trigger('change');
+            }
 		});
 
 		$('#knob3').knob({
@@ -419,10 +421,12 @@ include("header.php");
 		$('#knob1').knob({
 		    'draw': function(event) {
 		        var neededAverage = (document.getElementById("knob1").value - (document.getElementById("knob2").value * (totalWeight / 100))) / (1 - (totalWeight / 100));
-	            document.getElementById("knob3").value = neededAverage;
+	            if(neededAverage >-1){
+                document.getElementById("knob3").value = neededAverage;
 	            $('#knob3')
 	                .val(neededAverage).trigger('change');
 		    }
+        }
 		});
 
 
