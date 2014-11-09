@@ -19,14 +19,9 @@ body{
 	color: #808080;
 }
 
-/*ul {
-  white-space: nowrap;
+.friends_pics td {
+	padding: 10px;
 }
-
-ul, li {
-  list-style: none;
-  display: inline;
-}*/
 
 /* COMPONENTS */
 .col-md-3-classBar {

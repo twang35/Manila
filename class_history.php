@@ -46,7 +46,7 @@ include("header.php");
                 <h1 class = "Class-Title">Appcology </h1>
             </div>
             <div align="center">
-                <table>
+                <table class="friends_pics">
                     <tr>
                         <td><img src="img/contact-img.png"></td>
                         <td><img src="img/contact-img.png"></td>
@@ -67,7 +67,7 @@ include("header.php");
                 <h1 class = "Class-Title">Econ 121</h1>
             </div>
             <div align="center">
-                <table>
+                <table class="friends_pics">
                     <tr>
                         <td><img src="img/contact-img.png"></td>
                         <td><img src="img/contact-img.png"></td>
@@ -88,7 +88,7 @@ include("header.php");
                 <h1 class = "Class-Title">English 181</h1>
             </div>
             <div align="center">
-                <table>
+                <table class="friends_pics">
                     <tr>
                         <td><img src="img/contact-img.png"></td>
                         <td><img src="img/contact-img.png"></td>
