@@ -20,7 +20,7 @@
         <div class="col-md-6">
             <div class="col-md-12 center-statsUp">Courses</div>
             <div class="col-md-12 center-statsBo">
-                <h4>Course 1</h4>
+                <h4>Appcology</h4>
                 <h4>Course 2</h4>
                 <h4>Course 3</h4>
             </div>
