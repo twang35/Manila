@@ -90,13 +90,13 @@
                 </div>
                 <div class="row" style="margin-top: 20px;">
                     <div class="col-md-6">
-                        <div class="col-md-12 center-statsUp">96%</div>
+                        <div id="bestPossibleGrade"class="col-md-12 center-statsUp"></div>
                         <div class="col-md-12 center-statsBo">
                             <h4>Best Possible Grade</h4>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="col-md-12 center-statsUp">25%</div>
+                        <div id="worstPossibleGrade"class="col-md-12 center-statsUp"></div>
                         <div class="col-md-12 center-statsBo">
                             <h4>Worst Possible Grade</h4>
                         </div>
@@ -355,6 +355,10 @@
             grade = "F";
         }
         $('#letter-grade').text(grade);
+        $('#bestPossibleGrade').text(Math.round((totalGrade/100) + (100-totalWeight))+"%");
+        $('#worstPossibleGrade').text(Math.round(totalGrade/100)+"%");
+
+
     });
 
 
