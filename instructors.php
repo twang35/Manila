@@ -35,6 +35,11 @@ include( "header.php");
                 <h4>Course 3</h4>
             </div>
         </div>
+
+        <div class="col-md-12">
+            <div id="hero-donut-1" style="height: 248px;"></div>
+            <h4>Assignment Type</h4>
+        </div>
     </div>
 
 </div>
@@ -52,6 +57,35 @@ include( "header.php");
 <script src="js/jquery.flot.stack.js"></script>
 <script src="js/jquery.flot.resize.js"></script>
 <script src="js/theme.js"></script>
+<!-- morrisjs -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+<script src="js/morris.min.js"></script>
+
+<script type="text/javascript">
+    Morris.Donut({
+        element: 'hero-donut-1',
+        data: [{
+            label: 'Homework',
+            value: 25
+        }, {
+            label: 'Quizzes',
+            value: 40
+        }, {
+            label: 'Tests',
+            value: 25
+        }, {
+            label: 'Attendance',
+            value: 10
+        }],
+        colors: ["#DBA901", "#B27474", "#AD2A2A"],
+        formatter: function(y, data) {
+                return y + "%"
+            }
+            // resize: true
+
+    });
+</script>
+
 </body>
 
 </html>

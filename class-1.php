@@ -397,7 +397,7 @@
 
 
     <!-- scripts for this page -->
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/jquery-1.11.1.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery-ui-1.10.2.custom.min.js"></script>
     <!-- knob -->
@@ -407,7 +407,7 @@
     <script src="js/jquery.flot.stack.js"></script>
     <script src="js/jquery.flot.resize.js"></script>
     <!-- morrisjs -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+    <script src="js/raphael-min.js"></script>
     <script src="js/morris.min.js"></script>
     <!-- call all plugins -->
     <script src="js/theme.js"></script>
