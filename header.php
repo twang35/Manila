@@ -207,7 +207,7 @@
                 </a>
                 <ul class="submenu">
         <?php endif; ?>
-                    <li><a href="class-1.php" <?php if($Title == "Appcology"): Echo "class=\"active\""; endif?>>Appcology-001</a></li>
+                    <li><a href="class-1.php" <?php if($Title == "Appcology"): Echo "class=\"active\""; endif?>>Appcology-355</a></li>
                     <li><a href="class-2.php" <?php if($Title == "Econ 121"): Echo "class=\"active\""; endif?>>Econ 121-000</a></li>
                     <li><a href="class-3.php" <?php if($Title == "Eng 181"): Echo "class=\"active\""; endif?>>Eng 181-004</a></li>
                 </ul>
@@ -267,6 +267,20 @@
                 <a href="calendar.php">
                     <i class="icon-calendar-empty"></i>
                     <span>TooDoo</span>
+                </a>
+            </li>
+            <?php if($Title == "Profiles"):  ?>
+            <li class="active">
+                <div class="pointer">
+                    <div class="arrow"></div>
+                    <div class="arrow_border"></div>
+                </div>
+            <?php else : ?>
+                <li>
+            <?php endif; ?>
+                <a href="profiles.php">
+                    <i class="icon-user"></i>
+                    <span>Profiles</span>
                 </a>
             </li>
         <!-- <?php if($Title == "Profile"):  ?> -->
