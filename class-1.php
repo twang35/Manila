@@ -419,19 +419,9 @@ include("header.php");
 		$('#knob1').knob({
 		    'draw': function(event) {
 		        var neededAverage = (document.getElementById("knob1").value - (document.getElementById("knob2").value * (totalWeight / 100))) / (1 - (totalWeight / 100));
-		        if (neededAverage > 100) {
-		            document.getElementById("knob3").value = null; //make value = some out of bounds
-		            $('#knob3')
-		                .val(neededAverage).trigger('change');
-		        } else if (neededAverage < 0) {
-		            document.getElementById("knob3").value = null; //make value = some out of bounds
-		            $('#knob3')
-		                .val(neededAverage).trigger('change');
-		        } else {
-		            document.getElementById("knob3").value = neededAverage;
-		            $('#knob3')
-		                .val(neededAverage).trigger('change');
-		        }
+	            document.getElementById("knob3").value = neededAverage;
+	            $('#knob3')
+	                .val(neededAverage).trigger('change');
 		    }
 		});
 
