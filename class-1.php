@@ -420,7 +420,6 @@
             <h4 align="left">Final Grade Outcomes of Similar Students <small>based on Naive-Bayes classifier</small></h4>
             <div id="gradelytics">
         </div>
-
     </div>
 
 
