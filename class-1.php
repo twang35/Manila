@@ -318,45 +318,6 @@
                 </div>
             </div>
         </div>
-        <br>
-        <br>
-        <br>
-        <hr class="linebreak">
-        <!-- morris bar & donut charts -->
-        <div class="row section">
-            <div class="col-md-12">
-                <h4 class="title">Morris.js</h4>
-            </div>
-            <div class="col-md-6 chart">
-                <h5>Devices sold</h5>
-                <div id="hero-bar" style="height: 250px;"></div>
-            </div>
-            <div class="col-md-6 chart">
-                <h5>Month traffic</h5>
-                <div id="hero-donut-3" style="height: 250px;"></div>
-            </div>
-        </div>
-
-        <!-- jQuery knobs -->
-        <div class="row section">
-            <div class="col-md-12">
-                <h4 class="title">jQuery Knob</h4>
-            </div>
-            <div class="row">
-                <div class="col-md-3">
-                    <input type="text" value="50" class="knob second" data-thickness=".3" data-inputColor="#333" data-fgColor="#30a1ec" data-bgColor="#d4ecfd" data-width="140">
-                </div>
-                <div class="col-md-3">
-                    <input type="text" value="75" class="knob second" data-thickness=".3" data-inputColor="#333" data-fgColor="#8ac368" data-bgColor="#c4e9aa" data-width="140">
-                </div>
-                <div class="col-md-3">
-                    <input type="text" value="35" class="knob second" data-thickness=".3" data-inputColor="#333" data-fgColor="#5ba0a3" data-bgColor="#cef3f5" data-width="140">
-                </div>
-                <div class="col-md-3">
-                    <input type="text" value="85" class="knob second" data-thickness=".3" data-inputColor="#333" data-fgColor="#b85e80" data-bgColor="#f8d2e0" data-width="140">
-                </div>
-            </div>
-        </div>
     </div>
 
 </div>
@@ -551,54 +512,6 @@
         });
     });
 
-    // Morris Bar Chart
-    Morris.Bar({
-        element: 'hero-bar',
-        data: [{
-            device: '1',
-            sells: 136
-        }, {
-            device: '3G',
-            sells: 1037
-        }, {
-            device: '3GS',
-            sells: 275
-        }, {
-            device: '4',
-            sells: 380
-        }, {
-            device: '4S',
-            sells: 655
-        }, {
-            device: '5',
-            sells: 1571
-        }],
-        xkey: 'device',
-        ykeys: ['sells'],
-        labels: ['Sells'],
-        barRatio: 0.4,
-        xLabelMargin: 10,
-        hideHover: 'auto',
-        barColors: ["#3d88ba"]
-    });
-
-    //   Morris.Bar({
-    //       element: 'assignment',
-    //     data: [
-    //     { y: 'Quiz-1', a: 100, b: 100 },
-    //     { y: 'Quiz-2', a: 75,  b: 100 },
-    //     { y: 'Quiz-3', a: 90,  b: 100 },
-    //     { y: 'Test-1', a: 85,  b: 100 },
-    //     { y: 'Test-2', a: 90,  b: 100 },
-    //     { y: 'Final', a: 75,  b: 100 },
-    //     { y: 'Attendance', a: 100, b: 100 }
-    //     ],
-    //     xkey: 'y',
-    //     ykeys: ['a', 'b'],
-    //     labels: ['Series A', 'Series B']
-    // });
-
-
     // Morris Donut Chart
     Morris.Donut({
         element: 'hero-donut-1',
@@ -655,66 +568,6 @@
     });
     // {
 
-    // },
-    // {
-    Morris.Donut({
-        element: 'hero-donut-3',
-        data: [{
-            label: 'Direct',
-            value: 25
-        }, {
-            label: 'Referrals',
-            value: 40
-        }, {
-            label: 'Search engines',
-            value: 25
-        }, {
-            label: 'Unique visitors',
-            value: 10
-        }],
-        colors: ["#30a1ec", "#76bdee", "#c4dafe"],
-        formatter: function(y, data) {
-            return y + "%"
-        },
-        resize: true
-    });
-
-
-    // Morris Line Chart
-    var tax_data = [{
-        "period": "2013-04",
-        "visits": 2407
-    }, {
-        "period": "2013-03",
-        "visits": 3351
-    }, {
-        "period": "2013-02",
-        "visits": 2469
-    }, {
-        "period": "2013-01",
-        "visits": 2246
-    }, {
-        "period": "2012-12",
-        "visits": 3171
-    }, {
-        "period": "2012-11",
-        "visits": 2155
-    }, {
-        "period": "2012-10",
-        "visits": 1226
-    }, {
-        "period": "2012-09",
-        "visits": 2245
-    }];
-    // Morris.Line({
-    //     element: 'hero-graph-progress',
-    //     data: tax_data,
-    //     xkey: 'period',
-    //     xLabels: "month",
-    //     ykeys: ['visits'],
-    //     labels: ['Your Average'],
-    //     lineColors: ['#cc0033']
-    // });
 
 
     // Build jQuery Knobs
