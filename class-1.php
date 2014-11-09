@@ -106,7 +106,7 @@
                         </div>
                     </div>
                     <div class="span12">
-                        <div id="course-progress"></div>
+                        <div id="statsChart"></div>
                     </div>
                 </div>
                 <div class="row" style="margin-top: 20px;">
@@ -602,49 +602,37 @@
 
 
     //  jQuery Flot Chart
-    var visits = [
-        [1, 50],
-        [2, 40],
-        [3, 45],
-        [4, 23],
-        [5, 55],
-        [6, 65],
-        [7, 61],
-        [8, 70],
-        [9, 65],
-        [10, 75],
-        [11, 57],
-        [12, 59]
-        // [13, 65],
-        // [14, 75],
-        // [15, 57],
-        // [16, 59]
+    var Max = [
+        [1, 0],
+        [2, 0],
+        [3, 1],
+        [4, 2],
+        [5, 4],
+        [6, 6],
+        [7, 7],
+        [8, 9],
+        [9, 60],
+        [10, 69],
+        [11, 81],
+        [12, 100]
     ];
-    var visitors = [
-        [1, 25],
-        [2, 50],
-        [3, 23],
-        [4, 48],
-        [5, 38],
-        [6, 40],
-        [7, 47],
-        [8, 55],
-        [9, 43],
-        [10, 50],
-        [11, 47],
-        [12, 39]
-        // [13, 43],
-        // [14, 50],
-        // [15, 47],
-        // [16, 39]
+    var Actual = [
+        [1, 5],
+        [2, 11],
+        [3, 13],
+        [4, 16],
+        [5, 22],
+        [6, 33],
+        [7, 38],
+        [8, 51]
     ];
 
-    var plot = $.plot($("#course-progress"), [{
-        data: visits,
-        label: "Signups"
+    var plot = $.plot($("#statsChart"), [{
+        data: Actual,
+        label: "Actual"
     }, {
-        data: visitors,
-        label: "Visits"
+        data: Max,
+        label: "Max"
     }], {
         series: {
             lines: {
@@ -677,25 +665,21 @@
             // show: false
             labelBoxBorderColor: "#fff"
         },
-        colors: ["#DBA901", "#000000"],
+        colors: ["#DBA901", "#cc0033"],
         xaxis: {
             ticks: [
-                [1, "JAN"],
-                [2, "FEB"],
-                [3, "MAR"],
-                [4, "APR"],
-                [5, "MAY"],
-                [6, "JUN"],
-                [7, "JUL"],
-                [8, "AUG"],
-                [9, "SEP"],
-                [10, "OCT"],
-                [11, "NOV"],
-                [12, "DEC"]
-                // [13, "DEC"],
-                // [14, "OCT"],
-                // [15, "NOV"],
-                // [16, "DEC"]
+                [1, "8/30"],
+                [2, "9/6"],
+                [3, "9/13"],
+                [4, "9/20"],
+                [5, "9/27"],
+                [6, "10/4"],
+                [7, "10/11"],
+                [8, "10/18"],
+                [9, "10/25"],
+                [10, "11/1"],
+                [11, "11/8"],
+                [12, "11/15"]
             ],
             font: {
                 size: 12,
@@ -729,7 +713,7 @@
     }
 
     var previousPoint = null;
-    $("#course-progress").bind("plothover", function(event, pos, item) {
+    $("#statsChart").bind("plothover", function(event, pos, item) {
         if (item) {
             if (previousPoint != item.dataIndex) {
                 previousPoint = item.dataIndex;
