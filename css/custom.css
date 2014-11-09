@@ -30,3 +30,7 @@
     border-bottom-width: 1px;
     border-bottom-style: solid;
 }
+#bellcurve {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
