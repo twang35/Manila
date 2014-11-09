@@ -8,7 +8,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h4 class="modal-title" id="myModalLabel">Blah 1</h4>
+        <h4 class="modal-title" id="myModalLabel">Cell Regeneration Paper</h4>
       </div>
       <div class="modal-body">
         ...
@@ -27,7 +27,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h4 class="modal-title" id="myModalLabel">Blah 2</h4>
+        <h4 class="modal-title" id="myModalLabel">Midterm 1</h4>
       </div>
       <div class="modal-body">
         ...
@@ -46,7 +46,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h4 class="modal-title" id="myModalLabel">Blah 3</h4>
+        <h4 class="modal-title" id="myModalLabel">Lab Report</h4>
       </div>
       <div class="modal-body">
         ...
@@ -65,7 +65,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h4 class="modal-title" id="myModalLabel">Blah 4</h4>
+        <h4 class="modal-title" id="myModalLabel">Cell Regeneration Paper</h4>
       </div>
       <div class="modal-body">
         ...

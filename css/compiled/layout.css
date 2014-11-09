@@ -18,6 +18,10 @@
   
 }
 
+.modal-title{
+  color:#505050;
+}
+
 body { 
   font-weight: 300;
   background-color: #f7f7f7;
