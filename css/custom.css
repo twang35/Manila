@@ -21,6 +21,7 @@
 
 .row.grdbk {
 	margin-top: 20px;
+	margin-bottom: 20px;
 	padding-top: 20px;
 	background-color:#ffffff;
 	border-top: rgb(203, 202, 202);
@@ -37,5 +38,5 @@
 }
 
 .middle {
-	tranform: translateY(50%);
+	transform: translateY(50%);
 }

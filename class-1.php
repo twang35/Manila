@@ -153,13 +153,8 @@
                 <div class="row">
                     <div class="col-md-12">
                         <h4 class="title pull-left">
-                                Course Progress                        
-                            </h4>
-                        <div class="btn-group pull-right">
-                            <button class="glow left">DAY</button>
-                            <button class="glow middle active">MONTH</button>
-                            <button class="glow right">YEAR</button>
-                        </div>
+                            Course Progress
+                        </h4>
                     </div>
                     <div class="span12">
                         <div id="statsChart"></div>
@@ -202,7 +197,7 @@
         </div>
 
         <div class="row grdbk" align="center">
-            <h1>Gradebook</h1>
+            <h1><b>Gradebook</b></h1>
             <hr>
             <div class="div-scroll">
                 <div class="grade-block" data-toggle="modal" data-target="#myModal1">
@@ -214,10 +209,10 @@
                     <div class="row" style="margin-top: 10px;">
                         <div class="col-md-2 grbk-letter">D</div>
                         <div class="col-md-3">
-                            <input type="text" value="60" class="knob second" data-readOnly=true data-thickness=".3" data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
+                            <input type="text" value="60" class="knob second" data-readOnly=true data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
                         </div>
-                        <div class="col-md-3">
-                            <h2 class="middle">.05</h2>
+                        <div class="col-md-3 middle">
+                            <h3>5%</h3>
                         </div>
                         <div class="col-md-2" style="padding:0px;">
                             <!-- <h3 class="points">47/50</h3> -->
@@ -258,10 +253,10 @@
                             B
                         </div>
                         <div class="col-md-3">
-                            <input type="text" value="84" class="knob second" data-thickness=".3" data-readOnly=true data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
+                            <input type="text" value="84" class="knob second" data-readOnly=true data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
                         </div>
-                        <div class="col-md-3">
-                            <input type="text" value="20" class="knob second" data-thickness=".3" data-readOnly=true data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
+                        <div class="col-md-3 middle">
+                            <h3>20%</h3>
                         </div>
                         <div class="col-md-2" style="padding:0px;">
                             <!-- <h3 class="points">47/50</h3> -->
@@ -302,10 +297,10 @@
                             B+
                         </div>
                         <div class="col-md-3">
-                            <input type="text" value="89" class="knob second" data-thickness=".3" data-readOnly=true data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
+                            <input type="text" value="89" class="knob second" data-readOnly=true data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
                         </div>
-                        <div class="col-md-3">
-                            <input type="text" value="15" class="knob second" data-thickness=".3" data-readOnly=true data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
+                        <div class="col-md-3 middle">
+                            <h3>15%</h3>
                         </div>
                         <div class="col-md-2" style="padding:0px;">
                             <!-- <h3 class="points">47/50</h3> -->
@@ -346,17 +341,17 @@
                             - -
                         </div>
                         <div class="col-md-3">
-                            <input type="text" value="96" class="knob second" data-thickness=".3" data-readOnly=true data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
+                            <input type="text" value="96" class="knob second" data-readOnly=true data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
                         </div>
-                        <div class="col-md-3">
-                            <input type="text" value="30" class="knob second" data-thickness=".3" data-readOnly=true data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
+                        <div class="col-md-3 middle">
+                            <h3>30%</h3>
                         </div>
                         <div class="col-md-2" style="padding:0px;">
                             <!-- <h3 class="points">47/50</h3> -->
                             <h3 class="grbk-top-half">48</h3>
                             <h3>50</h3>
                         </div>
-                        <div class="col-md-2" style="padding:0px;">
+                        <div class="col-md-2 middle" style="padding:0px;">
                             <h3>10</h3>
                         </div>
                     </div>
@@ -380,7 +375,17 @@
                 </div>
             </div>
         </div>
+
+        <div class="col-md-12" align="center">
+            <h1><b>Gradelytics</b></h1>
+            <hr>
+            <h4 align="left">Final Grade Outcomes of Similar Students <small>based on Naive-Bayes classifier</small></h4>
+            <div id="gradelytics">
+        </div>
+
     </div>
+
+
 
 </div>
 <!-- end main container -->
@@ -775,6 +780,28 @@
             previousPoint = null;
         }
     });
+
+    Morris.Bar({
+            element: 'gradelytics',
+            data: [
+                {device: 'A', sells: 9},
+                {device: 'A-', sells: 12},
+                {device: 'B+', sells: 22},
+                {device: 'B', sells: 16},
+                {device: 'B-', sells: 14},
+                {device: 'C+', sells: 8},
+                {device: 'C', sells: 7},
+                {device: 'C-', sells: 4},
+                {device: 'D+ and lower', sells: 6}
+            ],
+            xkey: 'device',
+            ykeys: ['sells'],
+            labels: ['Percent'],
+            barRatio: 0.4,
+            xLabelMargin: 10,
+            hideHover: 'auto',
+            barColors: ["#DBA901"]
+        });
 </script>
 </body>
 
