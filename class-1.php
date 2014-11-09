@@ -57,12 +57,6 @@
     </table>
   </div>
 </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -81,7 +75,52 @@
         <h4 class="modal-title" id="myModalLabel">Midterm 1<br><span class="duedate">09/19</span></h4>
       </div>
       <div class="modal-body">
-        ...
+        <div class="row" align="center" style="margin-bottom: 10px">
+            <img src="img/sketchygraph.png" height="350" width="450" />
+        </div>
+        <hr>
+        <div class="row" align="center" style="margin-bottom: 10px">
+            <h3>Bell Curve</h3>
+        </div>
+        <div class="row" align="center" style="margin-bottom: 10px">
+            <img src="img/Bell_Curve.png" height="400" width="450" />
+        </div>
+        <hr>
+        <div class="row" align="center" style="margin-bottom: 10px">
+            <h3>Score Table</h3>
+        </div>
+<div class="row" align="center" style="margin-bottom: 10px">
+        <div class="bs-example">
+    <table class="table table-striped">
+      <tbody>
+        <tr>
+          <td>Mean</td>
+          <td>75</td>
+        </tr>
+        <tr>
+            <td>Standard Deviation</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>My Score</td>
+            <td>85</td>
+        </tr>
+        <tr>
+            <td>Z-Score</td>
+            <td>0.765</td>
+        </tr>
+        <tr>
+            <td>My Grade</td>
+            <td>B</td>
+        </tr>
+        <tr>
+         <td>Grade Change</td>
+         <td>+</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -100,7 +139,52 @@
         <h4 class="modal-title" id="myModalLabel">Lab Report<br><span class="duedate">09/25</span></h4>
       </div>
       <div class="modal-body">
-        ...
+        <div class="row" align="center" style="margin-bottom: 10px">
+            <img src="img/sketchygraph.png" height="350" width="450" />
+        </div>
+        <hr>
+        <div class="row" align="center" style="margin-bottom: 10px">
+            <h3>Bell Curve</h3>
+        </div>
+        <div class="row" align="center" style="margin-bottom: 10px">
+            <img src="img/Bell_Curve.png" height="400" width="450" />
+        </div>
+        <hr>
+        <div class="row" align="center" style="margin-bottom: 10px">
+            <h3>Score Table</h3>
+        </div>
+<div class="row" align="center" style="margin-bottom: 10px">
+        <div class="bs-example">
+    <table class="table table-striped">
+      <tbody>
+        <tr>
+          <td>Mean</td>
+          <td>75</td>
+        </tr>
+        <tr>
+            <td>Standard Deviation</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>My Score</td>
+            <td>85</td>
+        </tr>
+        <tr>
+            <td>Z-Score</td>
+            <td>0.765</td>
+        </tr>
+        <tr>
+            <td>My Grade</td>
+            <td>B</td>
+        </tr>
+        <tr>
+         <td>Grade Change</td>
+         <td>+</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -119,7 +203,52 @@
         <h4 class="modal-title" id="myModalLabel">Cell Regeneration Paper<br><span class="duedate">11/13</span></h4>
       </div>
       <div class="modal-body">
-        ...
+        <div class="row" align="center" style="margin-bottom: 10px">
+            <img src="img/sketchygraph.png" height="350" width="450" />
+        </div>
+        <hr>
+        <div class="row" align="center" style="margin-bottom: 10px">
+            <h3>Bell Curve</h3>
+        </div>
+        <div class="row" align="center" style="margin-bottom: 10px">
+            <img src="img/Bell_Curve.png" height="400" width="450" />
+        </div>
+        <hr>
+        <div class="row" align="center" style="margin-bottom: 10px">
+            <h3>Score Table</h3>
+        </div>
+<div class="row" align="center" style="margin-bottom: 10px">
+        <div class="bs-example">
+    <table class="table table-striped">
+      <tbody>
+        <tr>
+          <td>Mean</td>
+          <td>75</td>
+        </tr>
+        <tr>
+            <td>Standard Deviation</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>My Score</td>
+            <td>85</td>
+        </tr>
+        <tr>
+            <td>Z-Score</td>
+            <td>0.765</td>
+        </tr>
+        <tr>
+            <td>My Grade</td>
+            <td>B</td>
+        </tr>
+        <tr>
+         <td>Grade Change</td>
+         <td>+</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -245,7 +374,7 @@
         <div class="row grdbk" align="center">
             <h1><b>Gradebook</b></h1>
             <hr>
-            <div id="gradebook" class="div-scroll">
+            <div class="div-scroll">
                 <div class="grade-block" data-toggle="modal" data-target="#myModal1">
                     <div class="row" align="left">
                         <div class="col-md-7">
@@ -343,19 +472,19 @@
                             B+
                         </div>
                         <div class="col-md-3">
-                            <input type="text" value="88" class="knob second" data-readOnly=true data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
+                            <input type="text" value="89" class="knob second" data-readOnly=true data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
                         </div>
                         <div class="col-md-3 middle">
                             <h3>15%</h3>
                         </div>
                         <div class="col-md-2" style="padding:0px;">
                             <!-- <h3 class="points">47/50</h3> -->
-                            <h3 class="grbk-top-half">44</h3>
-                            <h3>50</h3>
+                            <h3 class="grbk-top-half">38</h3>
+                            <h3>40</h3>
                         </div>
                         <div class="col-md-2" style="padding:0px;">
-                            <h3 class="grbk-top-half">42</h3>
-                            <h3>50</h3>
+                            <h3 class="grbk-top-half">35</h3>
+                            <h3>40</h3>
                         </div>
                     </div>
                     <div class="row">
@@ -465,89 +594,9 @@
         for (var i = 0; i < Object.keys(studentDataSource.assignments).length; i += 1) {
             totalGrade += studentDataSource.assignments[i].grade * studentDataSource.assignments[i].weight;
             totalWeight += studentDataSource.assignments[i].weight * 1;
-            if(Math.round(studentDataSource.assignments[i].grade)>93){
-            grade = "A";
         }
-        else if(Math.round(studentDataSource.assignments[i].grade)>89){
-            grade = "A-";
-        }
-        else if(Math.round(studentDataSource.assignments[i].grade)>86){
-            grade = "B+";
-        }
-        else if(Math.round(studentDataSource.assignments[i].grade)>83){
-            grade = "B";
-        }
-        else if(Math.round(studentDataSource.assignments[i].grade)>79){
-            grade = "B-";
-        }
-        else if(Math.round(studentDataSource.assignments[i].grade)>76){
-            grade = "C+";
-        }
-        else if(Math.round(studentDataSource.assignments[i].grade)>73){
-            grade = "D-";
-        }
-        else if(Math.round(studentDataSource.assignments[i].grade)>69){
-            grade = "D-";
-        }
-        else if(Math.round(studentDataSource.assignments[i].grade)>66){
-            grade = "D+";
-        }
-        else if(Math.round(studentDataSource.assignments[i].grade)>63){
-            grade = "D";
-        }
-        else if(Math.round(studentDataSource.assignments[i].grade)>59){
-            grade = "D-";
-        }
-        else{
-            grade = "F";
-        }
-        var gradeElement = "<div class=\"grade-block\" data-toggle=\"modal\" data-target=\"#myModal"+(i+1)+"\">"+
-                "<div class=\"row\" align=\"left\"> "+
-                "<div class=\"col-md-7\">"+
-                "<h3 class=\"assignmentColor\"> "+studentDataSource.assignments[i].assignmentName+" ("+studentDataSource.assignments[i].date+")</h3>"+
-                "</div> </div> "+
-                "<div class=\"row\" style=\"margin-top: 10px;\">"+
-                                "<div class=\"col-md-2 grbk-letter\">"+grade+"</div>"+
-                                "<div class=\"col-md-3\">" +
-                                    "<input type=\"text\" value=\""+studentDataSource.assignments[i].grade+"\" class=\"knob second\" data-readOnly=true data-inputColor=\"#333\" data-fgColor=\"#E60000\" data-bgColor=\"#FFCCCC\" data-width=\"80\" data-height=\"80\">"+
-                                "</div>"+
-                                "<div class=\"col-md-3 middle\">"+
-                                    "<h3>"+studentDataSource.assignments[i].weight+"%</h3>"+
-                                "</div>"+
-                                "<div class=\"col-md-2\" style=\"padding:0px;\">"+
-                                    "<h3 class=\"grbk-top-half\">"+studentDataSource.assignments[i].myScore+"</h3>"+
-                                    "<h3>"+studentDataSource.assignments[i].total+"</h3>"+
-                                "</div>"+
-                                "<div class=\"col-md-2\" style=\"padding:0px;\">"+
-                                    "<h3 class=\"grbk-top-half\">"+studentDataSource.assignments[i].classAverage+"</h3>"+
-                                    "<h3>"+studentDataSource.assignments[i].total+"</h3>"+
-                                "</div>"+
-                            "</div>"+
-                            "<div class=\"row\">"+
-                                "<div class=\"col-md-2\">"+
-                                    "<h4>Grade</h4>"+
-                                "</div>"+
-                                "<div class=\"col-md-3\">"+
-                                    "<h4>% Grade</h4>"+
-                                "</div>"+
-                                "<div class=\"col-md-3\">"+
-                                    "<h4>Received Weight</h4>"+
-                                "</div>"+
-                                "<div class=\"col-md-2\">"+
-                                    "<h4 class=\"scorecap\">Score</h4>"+
-                                "</div>"+
-                                "<div class=\"col-md-2\">"+
-                                    "<h4 class=\"classavgcap\">Class Average</h4>"+
-                                "</div>"+
-                            "</div>"+
-                "</div>";
-
-            $('#gradebook').append(gradeElement);
-            $(".knob").knob();
-        }
-
-
         averageGrade = totalGrade / totalWeight;
+       
         var neededAverage = (document.getElementById("knob1").value - (averageGrade * (totalWeight / 100))) / (1 - (totalWeight / 100));
         if (neededAverage > -1) {
             document.getElementById("knob3").value = neededAverage;
@@ -599,6 +648,7 @@
 
     });
 
+
     $('#knob3').knob({
         'stopper': false
     });
@@ -610,26 +660,17 @@
             'assignmentName': 'Cell Regeneration Paper',
             'grade': '60',
             'weight': '5',
-            'date': '9/13',
-            'total': '50',
-            'myScore': '30',
-            'classAverage':'39'
+            'date': '9/13'
         }, {
             'assignmentName': 'Midterm 1',
             'grade': '84',
             'weight': '20',
-            'date': '9/19',
-            'total': '100',
-            'myScore': '84',
-            'classAverage':'81'
+            'date': '9/19'
         }, {
             'assignmentName': 'Lab Report',
-            'grade': '88',
+            'grade': '89',
             'weight': '15',
-            'date': '9/25',
-            'total': '50',
-            'myScore': '44',
-            'classAverage':'42'
+            'date': '9/25'
         }]
     };
 
