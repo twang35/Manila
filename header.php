@@ -283,12 +283,12 @@
                     <!-- <span>Profile</span> -->
                 <!-- </a> -->
             <!-- </li> -->
-            <li>
+            <!-- <li>
                 <a href="chart-showcase.html">
                     <i class="icon-cog"></i>
                     <span>Template</span>
                 </a>
-            </li>
+            </li> -->
             <!-- <li> -->
                 <!-- <a href="signup.html"> -->
                     <!-- <i class="icon-edit"></i> -->
