@@ -182,16 +182,6 @@
             </div>
         </div>
 
-
-        <!--  <div class="row" style="padding-top:50px" align="center">
-                <div class="row" style="width: 100%;">    
-                            <div class="col-md-12 chart">
-                                <h5>Points Recieved of Points Available</h5>
-                                <div id="assignment" style="width: 600px;"></div>
-                            </div>
-                        </div>
-            </div> -->
-
         <div class="row line" style="padding-top:70px" align="center">
             <div class="col-md-offset-1 col-md-5">
                 <div class="col-md-12">
@@ -401,7 +391,7 @@
 
 <!-- scripts for this page -->
 <script src="http://code.jquery.com/jquery-latest.js"></script>
-<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap.js"></script>
 <script src="js/jquery-ui-1.10.2.custom.min.js"></script>
 <!-- knob -->
 <script src="js/jquery.knob.js"></script>
