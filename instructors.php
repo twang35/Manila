@@ -1,29 +1,19 @@
 <!DOCTYPE html>
 <html>
-<?php 
-session_start(); 
-$_SESSION[ 'Title']="Instructors" ; 
-include( "header.php"); 
-?>
+<?php session_start(); $_SESSION[ 'Title']="Instructors" ; include( "header.php"); ?>
 
-
-<!-- main container -->
-
-<!-- main container -->
 <div class="content">
-
-
 
     <div class="row" style="margin-top: 50px;">
         <div class="col-md-4 " align="center">
-            <h1 >Benn Konsynski</h1>
+            <h1>Benn Konsynski</h1>
         </div>
     </div>
 
     <div class="row" style="margin-top: 40px; length:100px;">
         <div class="col-md-6">
             <div style="padding-left:80px">
-                <img src="img/konsynski.jpg" style="width: 45%">   
+                <img src="img/konsynski.jpg" style="width: 45%">
             </div>
         </div>
 
@@ -36,12 +26,16 @@ include( "header.php");
             </div>
         </div>
 
+    </div>
+    <div class="row" style="margin-top: 40px; length:100px;">
+
         <div class="col-md-12">
-            <div id="hero-donut-1" style="height: 248px;"></div>
-            <h4>Assignment Type</h4>
+            <div align="center">
+                <h4>Assignment Type</h4>
+                <div id="hero-donut-1" style="height: 248px;"></div>
+            </div>
         </div>
     </div>
-
 </div>
 <!-- end main container -->
 
