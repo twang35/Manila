@@ -498,11 +498,11 @@ include("header.php");
                 },
                 series: [{
                     name: 'Points Missing',
-                    data: [20, 10, 24, 0],
-                    color: 'pink'
+                    data: [20, 4, 15, 0],
+                    color: '#DBA901'
                 }, {
                     name: 'Points Recieved',
-                    data: [80, 90, 76, 100],
+                    data: [80, 36, 60, 10],
                     color: '#cc0033'
                 }]
             });
@@ -554,7 +554,7 @@ include("header.php");
                 {label: 'Tests', value: 25 },
                 {label: 'Attendance', value: 10 }
             ],
-            colors: ["#B0B0B0", "#B27474", "#AD2A2A"],
+            colors: ["#DBA901", "#B27474", "#AD2A2A"],
             formatter: function (y, data) { return y + "%" }
             // resize: true
         
@@ -570,7 +570,7 @@ include("header.php");
                 {label: 'Quiz-3', value: 10 },
                 {label: 'Homework', value: 5 }
             ],
-            colors: ["#B0B0B0", "#B27474", "#AD2A2A"],
+            colors: ["#DBA901", "#B27474", "#AD2A2A"],
             formatter: function (y, data) { return y + "%" },
             // resize: true
 
@@ -649,7 +649,7 @@ include("header.php");
                         // show: false
                         labelBoxBorderColor: "#fff"
                     },  
-                colors: ["#a7b5c5", "#cc0033"],
+                colors: ["#DBA901", "#cc0033"],
                 xaxis: {
                     ticks: [[1, "JAN"], [2, "FEB"], [3, "MAR"], [4,"APR"], [5,"MAY"], [6,"JUN"], 
                            [7,"JUL"], [8,"AUG"], [9,"SEP"], [10,"OCT"], [11,"NOV"], [12,"DEC"]],
