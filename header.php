@@ -226,6 +226,15 @@
                     <span>Friends</span>
                 </a>
             </li>
+        <?php if($Title == "Instructors"):  ?>
+            <li class="active">
+                <div class="pointer">
+                    <div class="arrow"></div>
+                    <div class="arrow_border"></div>
+                </div>
+        <?php else : ?>
+            <li>
+        <?php endif; ?>
             <li>
                 <a href="instructors.php">
                     <i class="icon-star"></i>

@@ -9,8 +9,116 @@ include("header.php");
 
 	<!-- main container -->
     <div class="content">
+        <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '746062275469473',
+      xfbml      : true,
+      version    : 'v2.2'
+    });
+  };
+  FB.getLoginStatus(function(response) {
+  if (response.status === 'connected') {
+    console.log('Logged in.');
+  }
+  else {
+    FB.login();
+  }
+});
 
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+        <!-- <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+        </fb:login-button>
+
+        <div id="status">
+        </div> -->
         <!-- settings changer -->
+
+         <div class="row" style="margin-top: 20px;">
+            <div class="col-md-10 col-md-offset-1" align="center">
+                <h1 class = "Class-Title">Biology 141 </h1>
+            </div>
+            <div align="center">
+                <ul>
+                    <li><img src="img/contact-img.png"></li>
+                    <li><img src="img/contact-img.png"></li>
+                    <li><img src="img/contact-img.png"></li>
+                    <li><img src="img/contact-img.png"></li>
+                    <li><img src="img/contact-img.png"></li>
+                    <li><img src="img/contact-img.png"></li>
+                    <li><img src="img/contact-img.png"></li>
+                    <li><img src="img/contact-img.png"></li>
+                    <li><img src="img/contact-img.png"></li>
+                    <li><img src="img/contact-img.png"></li>
+                    <li><img src="img/contact-img.png"></li>
+                    <li><img src="img/contact-img.png"></li>
+                </ul>
+            </div>
+            <div class="col-md-10 col-md-offset-1" align="center">
+                <h1 class = "Class-Title">Econ 121</h1>
+            </div>
+            <div align="center">
+                <ul>
+                    <li><img src="img/contact-img.png"></li>
+                    <li><img src="img/contact-img.png"></li>
+                    <li><img src="img/contact-img.png"></li>
+                    <li><img src="img/contact-img.png"></li>
+                    <li><img src="img/contact-img.png"></li>
+                    <li><img src="img/contact-img.png"></li>
+                    <li><img src="img/contact-img.png"></li>
+                    <li><img src="img/contact-img.png"></li>
+                    <li><img src="img/contact-img.png"></li>
+                    <li><img src="img/contact-img.png"></li>
+                    <li><img src="img/contact-img.png"></li>
+                    <li><img src="img/contact-img.png"></li>
+                </ul>
+            </div>
+            <div class="col-md-10 col-md-offset-1" align="center">
+                <h1 class = "Class-Title">English 181</h1>
+            </div>
+            <div align="center">
+                <ul>
+                    <?php foreach($array as $key=>$value){ ?>
+                                <li><img src="img/contact-img.png"></li>
+                                        <?php } ?>
+                    <!-- <li><img src="img/contact-img.png"></li>
+                    <li><img src="img/contact-img.png"></li>
+                    <li><img src="img/contact-img.png"></li>
+                    <li><img src="img/contact-img.png"></li>
+                    <li><img src="img/contact-img.png"></li>
+                    <li><img src="img/contact-img.png"></li>
+                    <li><img src="img/contact-img.png"></li>
+                    <li><img src="img/contact-img.png"></li>
+                    <li><img src="img/contact-img.png"></li>
+                    <li><img src="img/contact-img.png"></li>
+                    <li><img src="img/contact-img.png"></li>
+                    <li><img src="img/contact-img.png"></li> -->
+                </ul>
+            </div>
+            <!-- <div class="col-md-10 col-md-offset-1" align="center">
+                <h1 class = "Class-Title">Biology 141 </h1>
+            </div>
+            <div class="col-md-10 col-md-offset-1" align="center">
+                <h1 class = "Class-Title">Biology 141 </h1>
+            </div>
+            <div class="col-md-10 col-md-offset-1" align="center">
+                <h1 class = "Class-Title">Biology 141 </h1>
+            </div>
+            <div class="col-md-10 col-md-offset-1" align="center">
+                <h1 class = "Class-Title">Biology 141 </h1>
+            </div>
+            <div class="col-md-10 col-md-offset-1" align="center">
+                <h1 class = "Class-Title">Biology 141 </h1>
+            </div> -->
+
+        </div>
         <div class="skins-nav">
             <a href="#" class="skin first_nav selected">
                 <span class="icon"></span><span class="text">Default skin</span>
@@ -19,6 +127,7 @@ include("header.php");
                 <span class="icon"></span><span class="text">Dark skin</span>
             </a>
         </div>
+       
 
 
     </div>

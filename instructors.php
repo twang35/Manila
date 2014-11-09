@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
-<?php session_start(); $_SESSION[ 'Title']="Class History" ; include( "header.php"); ?>
+<?php 
+session_start(); 
+$_SESSION[ 'Title']="Instructors" ; 
+include( "header.php"); 
+?>
 
 
 <!-- main container -->

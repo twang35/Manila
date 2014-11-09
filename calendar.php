@@ -2,7 +2,7 @@
 <html>
 <?php
 session_start();
-$_SESSION['Title']="Calendar";
+$_SESSION['Title']="TooDoo";
 include("header.php");
 ?>
     <!-- main container -->
