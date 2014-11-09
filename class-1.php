@@ -56,20 +56,10 @@ include("header.php");
                         </div>
                     </div>
                     <!-- jQuery flot chart -->
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h4 class="title pull-left">
-                                jQuery Flot <small>Monthly growth</small>                        
-                            </h4>
-                            <div class="btn-group pull-right">
-                                <button class="glow left">DAY</button>
-                                <button class="glow middle active">MONTH</button>
-                                <button class="glow right">YEAR</button>
-                            </div>
-                        </div>
-                        <div class="span12">
-                            <div id="statsChart"></div>
-                        </div>
+                    <div>
+                        <figure>
+                            <img src="img/Bell_Curve.png" style="width: 100%">
+                        </figure>
                     </div>
                     <div>
                         <div class="row" align="center">
@@ -85,15 +75,29 @@ include("header.php");
                             </div>
                         </div>
                     </div>
-                    <!-- morris graph chart -->
-                    <div class="row" style="width: 100%;">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4 class="title pull-left">
+                                jQuery Flot <small>Monthly growth</small>                        
+                            </h4>
+                            <div class="btn-group pull-right">
+                                <button class="glow left">DAY</button>
+                                <button class="glow middle active">MONTH</button>
+                                <button class="glow right">YEAR</button>
+                            </div>
+                        </div>
+                        <div class="span12">
+                            <div id="statsChart"></div>
+                        </div>
+                    </div>
+                   <!--  <div class="row" style="width: 100%;">
                         <div class="col-md-12">
                             <h4 class="title">Progress</h4>
                         </div>
                         <div class="col-md-12">                        
                             <div id="hero-graph-progress" style="height: 230px; width: 100%;"></div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
 			</div>
            
@@ -563,15 +567,15 @@ include("header.php");
             {"period": "2012-10", "visits": 1226},
             {"period": "2012-09", "visits": 2245}
         ];
-        Morris.Line({
-            element: 'hero-graph-progress',
-            data: tax_data,
-            xkey: 'period',
-            xLabels: "month",
-            ykeys: ['visits'],
-            labels: ['Your Average'],
-            lineColors: ['#cc0033']
-        });
+        // Morris.Line({
+        //     element: 'hero-graph-progress',
+        //     data: tax_data,
+        //     xkey: 'period',
+        //     xLabels: "month",
+        //     ykeys: ['visits'],
+        //     labels: ['Your Average'],
+        //     lineColors: ['#cc0033']
+        // });
 
 
         // Build jQuery Knobs
