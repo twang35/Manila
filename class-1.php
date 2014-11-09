@@ -11,7 +11,7 @@ include("header.php");
 
         <div class="row" align="center" style="margin-bottom: 10px">
             <div class="col-md-4-classBar" style="padding-left:15px">
-                <a href="#"><font size="4">Professor: <span class="badge">Patrick Cafferty</span></a>
+                <a href="http://goizueta.emory.edu/faculty/academic_areas/isom/konsynski_benn.html"><font size="4">Professor: <span class="badge">Benn Konsynski</span></a>
             </div>
             <div class="col-md-4-classBar">
                 <a href="#"><font size="4">Day/Time: <span class="badge">MWF 12:45pm</span></a>
