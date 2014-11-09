@@ -226,16 +226,15 @@
                     <span>Friends</span>
                 </a>
             </li>
-        <?php if($Title == "Instructors"):  ?>
+            <?php if($Title == "Instructors"):  ?>
             <li class="active">
                 <div class="pointer">
                     <div class="arrow"></div>
                     <div class="arrow_border"></div>
                 </div>
-        <?php else : ?>
-            <li>
-        <?php endif; ?>
-            <li>
+            <?php else : ?>
+                <li>
+            <?php endif; ?>
                 <a href="instructors.php">
                     <i class="icon-star"></i>
                     <span>Instructors</span>
@@ -266,7 +265,7 @@
             <?php endif; ?>
                 <a href="calendar.php">
                     <i class="icon-calendar-empty"></i>
-                    <span>TooDoo</span>
+                    <span>To Do</span>
                 </a>
             </li>
 
