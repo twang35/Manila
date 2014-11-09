@@ -244,179 +244,6 @@
             <h1><b>Gradebook</b></h1>
             <hr>
             <div id="gradebook" class="div-scroll">
-                <div class="grade-block" data-toggle="modal" data-target="#myModal1">
-                    <div class="row" align="left">
-                        <div class="col-md-7">
-                            <h3 class="assignmentColor">Cell Regeneration Paper (9/13)</h3>
-                        </div>
-                    </div>
-                    <div class="row" style="margin-top: 10px;">
-                        <div class="col-md-2 grbk-letter">D</div>
-                        <div class="col-md-3">
-                            <input type="text" value="60" class="knob second" data-readOnly=true data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
-                        </div>
-                        <div class="col-md-3 middle">
-                            <h3>5%</h3>
-                        </div>
-                        <div class="col-md-2" style="padding:0px;">
-                            <!-- <h3 class="points">47/50</h3> -->
-                            <h3 class="grbk-top-half">30</h3>
-                            <h3>50</h3>
-                        </div>
-                        <div class="col-md-2" style="padding:0px;">
-                            <h3 class="grbk-top-half">39</h3>
-                            <h3>50</h3>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-2">
-                            <h4>Grade</h4>
-                        </div>
-                        <div class="col-md-3">
-                            <h4>% Grade</h4>
-                        </div>
-                        <div class="col-md-3">
-                            <h4>Received Weight</h4>
-                        </div>
-                        <div class="col-md-2">
-                            <h4 class="scorecap">Score</h4>
-                        </div>
-                        <div class="col-md-2">
-                            <h4 class="classavgcap">Class Average</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="grade-block" data-toggle="modal" data-target="#myModal2">
-                    <div class="row" align="left">
-                        <div class="col-md-7">
-                            <h3 class="assignmentColor">Midterm 1 (9/19)</h3>
-                        </div>
-                    </div>
-                    <div class="row" style="margin-top: 10px;">
-                        <div class="col-md-2 grbk-letter">
-                            B
-                        </div>
-                        <div class="col-md-3">
-                            <input type="text" value="84" class="knob second" data-readOnly=true data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
-                        </div>
-                        <div class="col-md-3 middle">
-                            <h3>20%</h3>
-                        </div>
-                        <div class="col-md-2" style="padding:0px;">
-                            <!-- <h3 class="points">47/50</h3> -->
-                            <h3 class="grbk-top-half">84</h3>
-                            <h3>100</h3>
-                        </div>
-                        <div class="col-md-2" style="padding:0px;">
-                            <h3 class="grbk-top-half">81</h3>
-                            <h3>100</h3>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-2">
-                            <h4>Grade</h4>
-                        </div>
-                        <div class="col-md-3">
-                            <h4>% Grade</h4>
-                        </div>
-                        <div class="col-md-3">
-                            <h4>Received Weight</h4>
-                        </div>
-                        <div class="col-md-2">
-                            <h4 class="scorecap">Score</h4>
-                        </div>
-                        <div class="col-md-2">
-                            <h4 class="classavgcap">Class Average</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="grade-block" data-toggle="modal" data-target="#myModal3">
-                    <div class="row" align="left">
-                        <div class="col-md-7">
-                            <h3 class="assignmentColor">Lab Report (9/25)</h3>
-                        </div>
-                    </div>
-                    <div class="row" style="margin-top: 10px;">
-                        <div class="col-md-2 grbk-letter">
-                            B+
-                        </div>
-                        <div class="col-md-3">
-                            <input type="text" value="88" class="knob second" data-readOnly=true data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
-                        </div>
-                        <div class="col-md-3 middle">
-                            <h3>15%</h3>
-                        </div>
-                        <div class="col-md-2" style="padding:0px;">
-                            <!-- <h3 class="points">47/50</h3> -->
-                            <h3 class="grbk-top-half">44</h3>
-                            <h3>50</h3>
-                        </div>
-                        <div class="col-md-2" style="padding:0px;">
-                            <h3 class="grbk-top-half">42</h3>
-                            <h3>50</h3>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-2">
-                            <h4>Grade</h4>
-                        </div>
-                        <div class="col-md-3">
-                            <h4>% Grade</h4>
-                        </div>
-                        <div class="col-md-3">
-                            <h4>Received Weight</h4>
-                        </div>
-                        <div class="col-md-2">
-                            <h4 class="scorecap">Score</h4>
-                        </div>
-                        <div class="col-md-2">
-                            <h4 class="classavgcap">Class Average</h4>
-                        </div>
-                    </div>
-                </div>
-                <div >
-                    <div class="row" align="left">
-                        <div class="col-md-7">
-                            <h3 class="assignmentColor">Final Exam (12/13)</h3>
-                        </div>
-                    </div>
-                    <div class="row" style="margin-top: 10px;">
-                        <div class="col-md-2 grbk-letter">
-                            - -
-                        </div>
-                        <div class="col-md-3">
-                            <input type="text" value="96" class="knob second" data-readOnly=true data-inputColor="#333" data-fgColor="#E60000" data-bgColor="#FFCCCC" data-width="80" data-height="80">
-                        </div>
-                        <div class="col-md-3 middle">
-                            <h3>30%</h3>
-                        </div>
-                        <div class="col-md-2" style="padding:0px;">
-                            <!-- <h3 class="points">47/50</h3> -->
-                            <h3 class="grbk-top-half">48</h3>
-                            <h3>50</h3>
-                        </div>
-                        <div class="col-md-2 middle" style="padding:0px;">
-                            <h3>10</h3>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-2">
-                            <h4>Grade</h4>
-                        </div>
-                        <div class="col-md-3">
-                            <h4>Needed For Goal</h4>
-                        </div>
-                        <div class="col-md-3">
-                            <h4>% of Grade</h4>
-                        </div>
-                        <div class="col-md-2">
-                            <h4 class="scorecap">Score Needed for Goal</h4>
-                        </div>
-                        <div class="col-md-2">
-                            <h4 class="classavgcap">Days Until Due</h4>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
 
@@ -541,8 +368,51 @@
                 "</div>";
 
             $('#gradebook').append(gradeElement);
-            $(".knob").knob();
         }
+        $('#gradebook').append("<div>"+
+                    "<div class=\"row\" align=\"left\">"+
+                        "<div class=\"col-md-7\">"+
+                            "<h3 class=\"assignmentColor\">Final Exam (12/13)</h3>"+
+                        "</div>"+
+                    "</div>"+
+                    "<div class=\"row\" style=\"margin-top: 10px;\">"+
+                        "<div class=\"col-md-2 grbk-letter\">"+
+                            "- -"+
+                        "</div>"+
+                        "<div class=\"col-md-3\">"+
+                            "<input type=\"text\" value=\"96\" class=\"knob second\" data-readOnly=true data-inputColor=\"#333\" data-fgColor=\"#E60000\" data-bgColor=\"#FFCCCC\" data-width=\"80\" data-height=\"80\">"+
+                        "</div>"+
+                        "<div class=\"col-md-3 middle\">"+
+                            "<h3>30%</h3>"+
+                        "</div>"+
+                        "<div class=\"col-md-2\" style=\"padding:0px;\">"+
+                            "<h3 class=\"grbk-top-half\">48</h3>"+
+                            "<h3>50</h3>"+
+                        "</div>"+
+                        "<div class=\"col-md-2 middle\" style=\"padding:0px;\">"+
+                            "<h3>10</h3>"+
+                        "</div>"+
+                    "</div>"+
+                    "<div class=\"row\">"+
+                        "<div class=\"col-md-2\">"+
+                            "<h4>Grade</h4>"+
+                        "</div>"+
+                        "<div class=\"col-md-3\">"+
+                            "<h4>Needed For Goal</h4>"+
+                        "</div>"+
+                        "<div class=\"col-md-3\">"+
+                            "<h4>% of Grade</h4>"+
+                        "</div>"+
+                        "<div class=\"col-md-2\">"+
+                            "<h4 class=\"scorecap\">Score Needed for Goal</h4>"+
+                        "</div>"+
+                        "<div class=\"col-md-2\">"+
+                            "<h4 class=\"classavgcap\">Days Until Due</h4>"+
+                        "</div>"+
+                    "</div>"+
+                "</div>");
+
+            $(".knob").knob();
 
 
         averageGrade = totalGrade / totalWeight;
@@ -771,15 +641,7 @@
         // resize: true
 
     });
-    // {
-
-
-
-    // Build jQuery Knobs
-    $(".knob").knob();
-
-
-
+    
     //  jQuery Flot Chart
     var Max = [
         [1, 0],
