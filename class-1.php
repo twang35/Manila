@@ -17,18 +17,18 @@
                 </div>
                 <hr>
                 <div class="row" align="center" style="margin-bottom: 10px">
-                    <h3>Bell Curve</h3>
+                    <h2>Bell Curve</h2>
                 </div>
                 <div class="row" align="center" style="margin-bottom: 10px">
                     <img src="img/Bell_Curve.png" width="100%" />
                 </div>
                 <hr>
                 <div class="row" align="center" style="margin-bottom: 10px">
-                    <h3>Score Table</h3>
+                    <h2>Score Table</h2>
                 </div>
                 <div class="row" align="center" style="margin-bottom: 10px">
                     <div class="bs-example">
-                        <table class="table table-striped">
+                        <table class="table table-striped modaltbl">
                             <tbody>
                                 <tr>
                                     <td>Mean</td>
@@ -82,18 +82,18 @@
                 </div>
                 <hr>
                 <div class="row" align="center" style="margin-bottom: 10px">
-                    <h3>Bell Curve</h3>
+                    <h2>Bell Curve</h2>
                 </div>
                 <div class="row" align="center" style="margin-bottom: 10px">
                     <img src="img/Bell_Curve.png" width="100%" />
                 </div>
                 <hr>
                 <div class="row" align="center" style="margin-bottom: 10px">
-                    <h3>Score Table</h3>
+                    <h2>Score Table</h2>
                 </div>
                 <div class="row" align="center" style="margin-bottom: 10px">
                     <div class="bs-example">
-                        <table class="table table-striped">
+                        <table class="table table-striped modaltbl">
                             <tbody>
                                 <tr>
                                     <td>Mean</td>
@@ -147,18 +147,18 @@
                 </div>
                 <hr>
                 <div class="row" align="center" style="margin-bottom: 10px">
-                    <h3>Bell Curve</h3>
+                    <h2>Bell Curve</h2>
                 </div>
                 <div class="row" align="center" style="margin-bottom: 10px">
                     <img src="img/Bell_Curve.png" width="100%" />
                 </div>
                 <hr>
                 <div class="row" align="center" style="margin-bottom: 10px">
-                    <h3>Score Table</h3>
+                    <h2>Score Table</h2>
                 </div>
                 <div class="row" align="center" style="margin-bottom: 10px">
                     <div class="bs-example">
-                        <table class="table table-striped">
+                        <table class="table table-striped modaltbl">
                             <tbody>
                                 <tr>
                                     <td>Mean</td>
@@ -212,18 +212,18 @@
                 </div>
                 <hr>
                 <div class="row" align="center" style="margin-bottom: 10px">
-                    <h3>Bell Curve</h3>
+                    <h2>Bell Curve</h2>
                 </div>
                 <div class="row" align="center" style="margin-bottom: 10px">
                     <img src="img/Bell_Curve.png" width="100%" />
                 </div>
                 <hr>
                 <div class="row" align="center" style="margin-bottom: 10px">
-                    <h3>Score Table</h3>
+                    <h2>Score Table</h2>
                 </div>
                 <div class="row" align="center" style="margin-bottom: 10px">
-                    <div class="bs-example">
-                        <table class="table table-striped">
+                    <div class="bs-example" >
+                        <table class="table table-striped modaltbl">
                             <tbody>
                                 <tr>
                                     <td>Mean</td>
